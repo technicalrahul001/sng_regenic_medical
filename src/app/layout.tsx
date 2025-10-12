@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import LogoIndia from "../../logoIndia.png";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,10 +27,35 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}> 
+        <div className="min-h-screen flex flex-col">
+          <header className=" top-0 z-50 bg-white/80 dark:bg-black/50 backdrop-blur border-b border-black/[.08] dark:border-white/[.145]">
+          {/* <div style={{ display: "flex", justifyContent: "center", alignItems: "center", padding: "8px",backgroundColor:"lightblue" }}> */}
+            <Link style={{display: "flex", justifyContent: "center", }} href="/" passHref>
+              <img
+                src={LogoIndia.src}
+                alt="SND Regenic Research Labs Pvt. Ltd., India Logo"
+                style={{ width: "50%", height: "auto", borderRadius: "16px", cursor: "pointer" }}
+              />
+            </Link>
+          {/* </div> */}
+            <nav className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-around" >
+              <ul className="hidden md:flex items-center gap-6 text-m">
+                <li><Link className="hover:underline" href="/about">About Us</Link></li>
+                <li><Link className="hover:underline" href="/products-services">Product & Services</Link></li>
+                <li><Link className="hover:underline" href="/research-developments">Research & Developments</Link></li>
+                <li><Link className="hover:underline" href="/news-events">News & Events</Link></li>
+                <li><Link className="hover:underline" href="/contact-us">Contact Us</Link></li>
+              </ul>
+            </nav>
+          </header>
+          <main className="flex-1">{children}</main>
+          <footer className="border-t border-black/[.08] dark:border-white/[.145] py-8 text-sm">
+            <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-center gap-4">
+              <p>© {new Date().getFullYear()} SND REGENIC Reseach Labs Pvt. Ltd., India</p>
+            </div>
+          </footer>
+        </div>
       </body>
     </html>
   );

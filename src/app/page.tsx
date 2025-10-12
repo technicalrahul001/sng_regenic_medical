@@ -1,103 +1,85 @@
-import Image from "next/image";
+import React from 'react';
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
+    <section className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-tr from-blue-50 to-indigo-200 px-6 py-24 relative overflow-hidden">
+      {/* Floating 3D neural structure */}
+      <div className="absolute top-0 left-0 w-full h-full pointer-events-none z-0">
+        {/* Integrate a canvas or SVG of a neural network */}
+      </div>
+      
+      {/* Main container */}
+      <div className="relative z-10 max-w-6xl mx-auto text-center space-y-8">
+        <h1 className="text-5xl sm:text-6xl font-extrabold tracking-tight mb-6 text-indigo-800 drop-shadow-lg">
+          Welcome to SND Regenic
+        </h1>
+        <p className="text-lg sm:text-xl opacity-80 mb-8">
+          Let&apos;s revolutionize the field of regenerative medicine through <span className="font-semibold text-emerald-800">re-construction of neural tissues</span> for millions needing healing.
+        </p>
+        
+        {/* Country selection with 3D card effect */}
+        <div className="flex flex-wrap justify-center gap-8 mb-12">
+          {/* India */}
           <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            // href="/india"
+            className="bg-white backdrop-blur shadow-xl rounded-xl px-8 py-10 border-4 border-indigo-200 hover:scale-105 transition-transform duration-300 drop-shadow-2xl hover:border-indigo-500"
+            style={{boxShadow: '0 6px 32px 0 rgba(60,120,255,0.2)'}}
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
+            <img src="/images/india.svg" alt="India" className="w-16 mx-auto mb-4" />
+            <h2 className="text-2xl font-bold text-indigo-700 mb-4">India Location</h2>
+            <p className="text-base text-gray-600">SND Regenic Pvt. Ltd.</p>
           </a>
+          {/* Japan */}
           <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            // href="/japan"
+            className="bg-white backdrop-blur shadow-xl rounded-xl px-8 py-10 border-4 border-emerald-200 hover:scale-105 transition-transform duration-300 drop-shadow-2xl hover:border-emerald-500"
+            style={{boxShadow: '0 6px 32px 0 rgba(60,255,150,0.15)'}}
           >
-            Read our docs
+            <img src="/images/japan.svg" alt="Japan" className="w-16 mx-auto mb-4" />
+            <h2 className="text-2xl font-bold text-emerald-700 mb-4">Japan Location</h2>
+            <p className="text-base text-gray-600">SND Regenic Pvt. Ltd., Japan</p>
           </a>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+        
+        {/* Highlights and features in animated 3D cards */}
+        <div className="grid sm:grid-cols-3 gap-8">
+          <div className="bg-white/90 rounded-2xl p-6 shadow-xl hover:scale-105 transition">
+            <h3 className="text-xl font-semibold text-indigo-700 mb-2">
+              What We Do
+            </h3>
+            <p className="text-gray-700">
+              Tissue engineering, biomaterials & stem cells. Winners of 7 inventions, 6 patents, and 16 research papers.
+            </p>
+          </div>
+          <div className="bg-white/90 rounded-2xl p-6 shadow-xl hover:scale-105 transition">
+            <h3 className="text-xl font-semibold text-emerald-700 mb-2">
+              Our Mission
+            </h3>
+            <p className="text-gray-700">
+              Re-construction of neural tissues to treat neural injuries—helping more than 28 million patients globally.
+            </p>
+          </div>
+          <div className="bg-white/90 rounded-2xl p-6 shadow-xl hover:scale-105 transition">
+            <h3 className="text-xl font-semibold text-purple-700 mb-2">
+              Clinical & Tech Milestones
+            </h3>
+            <p className="text-gray-700">
+              GMP production, bio-ink, clinical protocols, and human trials—all supported by leading global universities and industries.
+            </p>
+          </div>
+        </div>
+
+        {/* Call to Action */}
+        <div className="mt-12">
+          <a
+            // href="/contact"
+            href="/about"
+            className="inline-block bg-indigo-600 text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:bg-indigo-700 transition"
+          >
+            Connect With Us & Join the Revolution
+          </a>
+        </div>
+      </div>
+    </section>
   );
 }

@@ -1,0 +1,120 @@
+export default function ResearchDevelopmentsPage() {
+  const works = [
+    {
+      src: "https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/f5c07045-8141-4a76-a9c8-a05910407f05_2x",
+      caption: "3D-Neural Tissue Culture"
+    },
+    {
+      src: "https://images.unsplash.com/photo-1643780668909-580822430155?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjQzOTV8MHwxfHNlYXJjaHw4fHwzRC1iaW98ZW58MHx8fHwxNzI2MzEzMDA3fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      caption: "3D-Bioprinting & Scaffolding"
+    },
+    {
+      src: "https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/b561fb54-237e-49c0-aac7-e99edb474a4d",
+      caption: "Neuroscience"
+    }
+  ];
+
+  const publications = [
+    { text: 'Agrawal, Lokesh, Menouer Saidani, Laurent Guillaud, and Marco Terenzio. 2021. “Development of 3D Culture Scaffolds for Directional Neuronal Growth Using 2-Photon Lithography.” Materials Science & Engineering. C, Biomimetic Materials, Sensors and Systems 131 (December): 112502–2. [https://doi.org/10.1016/j.msec.2021.112502](https://doi.org/10.1016/j.msec.2021.112502).' },
+    { text: 'Agrawal, Lokesh, Sunil Kumar Vimal, Paolo Barzaghi, Takashi Shiga, and Marco Terenzio. 2022. “Biodegradable and Electrically Conductive Melanin-Poly (3-Hydroxybutyrate) 3D Fibrous Scaffolds for Neural Tissue Engineering Applications.” Macromolecular Bioscience, September, 2200315. [https://doi.org/10.1002/mabi.202200315](https://doi.org/10.1002/mabi.202200315).' },
+    { text: 'Pathak, Nishit, Sunil Kumar Vimal, Ishi Tandon, Lokesh Agrawal, Cao Hongyi, and Sanjib Bhattacharyya. 2022. “Neurodegenerative Disorders of Alzheimer, Parkinsonism, Amyotrophic Lateral Sclerosis and Multiple Sclerosis: An Early Diagnostic Approach for Precision Treatment.” Metabolic Brain Disease 37 (1): 67–104. [https://doi.org/10.1007/s11011-021-08000-w](https://doi.org/10.1007/s11011-021-08000-w).' },
+    { text: 'Sunil Kumar Vimal, Hongyi Cao, Amit Dubey, Lokesh Agrawal, Nishit Pathak, Hua Zuo, Deepak Kumar, and Sanjib Bhattacharyya. 2022. “In Vivoandin Silicoinvestigations of the Pegylated Gold Nanoparticle Treatment of Amyotrophic Lateral Sclerosis in Mice.” New Journal of Chemistry 46 (25): 12252–64. [https://doi.org/10.1039/d2nj00452f](https://doi.org/10.1039/d2nj00452f).' },
+    { text: 'Agrawal, Lokesh, Mustafa Korkutata, Sunil Kumar Vimal, Manoj Kumar Yadav, Sanjib Bhattacharyya, and Takashi Shiga. 2020. “Therapeutic Potential of Serotonin 4 Receptor for Chronic Depression and Its Associated Comorbidity in the Gut.” Neuropharmacology 166: 107969. [https://doi.org/10.1016/j.neuropharm.2020.107969](https://doi.org/10.1016/j.neuropharm.2020.107969).' },
+    { text: 'Maria Fransiska Emily, Lokesh Agrawal, P. Barzaghi, Miki Otsuki, and Marco Terenzio. 2022. “Use of Microfluidics Chambers to Image Axonal Transport in Adult Sensory Neurons.” Methods in Molecular Biology, January, 271–88. [https://doi.org/10.1007/978-1-0716-1990-2_14](https://doi.org/10.1007/978-1-0716-1990-2_14).' }
+  ];
+
+  const ongoing = [
+    {
+      src: "https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/0f82d726-5e9a-4c0b-a224-11b8cec86fbd",
+      caption: "AI for Research & Healthcare"
+    },
+    {
+      src: "https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/c0d5a809-9067-4ec6-b6ea-ca4d0e669310",
+      caption: "Bioinformatics & Machine Learning"
+    }
+  ];
+
+  // Four collaborator logos as provided
+  const collaborators = [
+    { src: "https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/fa98c2e1-56e0-4da7-b0a2-d6afb5de7609_2x", alt: "Collaborator 1" },
+    { src: "https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/2b61b2f0-7c52-42ec-855d-33884b850866_2x", alt: "Collaborator 2" },
+    { src: "https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/c7c374a2-de85-40e4-927f-7f6e0b57f0b7_2x", alt: "Collaborator 3" },
+    { src: "https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/50fe7902-1111-4ac4-9857-ad35b194dcd1_2x", alt: "Collaborator 4" },
+  ];
+
+  return (
+    <div>
+      {/* HERO SECTION */}
+      <section className="relative h-[240px] sm:h-[320px] flex items-center justify-center text-white"
+        style={{ backgroundImage: "url(/hero-research.jpg)", backgroundSize: "cover", backgroundPosition: "center" }}>
+        <div className="absolute inset-0 bg-black/50" />
+        <h1 className="relative text-3xl sm:text-4xl font-semibold">Research</h1>
+      </section>
+
+      {/* IMAGE CARDS SECTION */}
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+        <h2 className="text-center text-2xl sm:text-3xl font-semibold mb-10">Check out our published works!</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {works.map((work, i) => (
+            <div key={i} className="rounded-2xl overflow-hidden bg-[#0b0d33] text-white">
+              <div style={{ aspectRatio: "1/1", borderRadius: "50%" }}
+                className="flex items-center justify-center bg-white/10">
+                <img src={work.src} alt={work.caption}
+                  style={{ aspectRatio: "1/1", borderRadius: "50%" }}
+                  className="tw-rounded-md tw-object-cover tw-max-h-full tw-max-w-full tw-w-full" />
+              </div>
+              <p className="px-6 py-4 text-sm opacity-90 text-center">{work.caption}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* BLOG/PUBLICATIONS SECTION */}
+      <section className="bg-white py-8">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <ul className="text-gray-900 text-xs sm:text-sm space-y-2">
+            {publications.map((pub, idx) => (
+              <li key={idx} className="font-normal">{pub.text}</li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      {/* ONGOING DEVELOPMENTS SECTION */}
+      <section className="bg-gray-500 text-white py-10 text-center">
+        <h2 className="text-2xl sm:text-3xl font-semibold mb-2">Ongoing Developments</h2>
+      </section>
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {ongoing.map((item, i) => (
+            <div key={i} className="overflow-hidden bg-[#0b0d33] rounded-2xl flex flex-col">
+              <div style={{ aspectRatio: "1/1", borderRadius: "50%" }} className="flex items-center justify-center w-full bg-white/10">
+                <img src={item.src} alt={item.caption} style={{ aspectRatio: "1/1", borderRadius: "50%" }} className="tw-rounded-md tw-object-cover tw-max-h-full tw-max-w-full tw-w-full" />
+              </div>
+              <p className="px-6 py-4 text-sm text-center text-white opacity-90">{item.caption}</p>
+            </div>
+          ))}
+        </div>
+        <div className="pt-8">
+          <p className="text-xs sm:text-sm text-center text-black max-w-3xl mx-auto">
+            We are currently working on harnessing the power of AI and machine learning to enhance our bioprinting and electrospinning machine capabilities. Our advanced algorithms and predictive models will enable personalized treatment plans, ensuring targeted and effective interventions. By integrating AIPML with our cutting-edge bioprinting and biomaterials, we are at the forefront of revolutionizing precision healthcare. We are committed to transforming the landscape of healthcare and medical research.
+          </p>
+        </div>
+      </section>
+
+      {/* OUR COLLABORATORS SECTION */}
+      <section className="bg-gray-500 text-white py-10 text-center">
+        <h2 className="text-2xl sm:text-3xl font-semibold mb-2">Our Collaborators</h2>
+      </section>
+      <section className="bg-white py-14">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
+          <div className="flex flex-wrap gap-x-12 gap-y-12 justify-center">
+            {collaborators.map((collab, idx) => (
+              <img key={idx} src={collab.src} alt={collab.alt} className="object-contain" style={{ height: idx < 2 ? 80 : 64, aspectRatio: 2, maxWidth: '250px', minWidth: '120px' }} />
+            ))}
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}

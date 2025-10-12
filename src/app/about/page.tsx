@@ -1,0 +1,145 @@
+import CtoImage from "../../../ctoImage.jpeg";
+
+export default function AboutPage() {
+  return (
+    <div>
+    <div style={{display: "flex", flexDirection: "column", gap: "15px"}}>
+      {/* From blueprint to tissue banner */}
+      <section className="relative h-[320px] sm:h-[380px] flex items-center justify-center text-white" style={{backgroundImage:"url('https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/cab90937-74af-4717-9ea5-b84da2ec8026_2x')", backgroundSize:"cover", backgroundPosition:"center"}}>
+        <div className="absolute inset-0 bg-black/40" />
+        <div className="relative max-w-3xl mx-auto px-4 text-center">
+          <p className="text-xl sm:text-2xl font-semibold">
+            &quot;From blueprint to tissue: revolutionizing regenerative medicine research with 3D bioprinting!&quot;
+          </p>
+        </div>
+      </section>
+      {/* Our Mission band with background image */}
+      <section className="relative py-10 sm:py-12 text-white" style={{backgroundImage:"url('https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/f5c07045-8141-4a76-a9c8-a05910407f05')", backgroundSize:"cover", backgroundPosition:"center",}}>
+        <div className="absolute inset-0 bg-[#0b0d33]/85" />
+        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-3xl text-center">
+            <h2 className="text-2xl sm:text-3xl font-semibold mb-4">Our Mission</h2>
+            <p className="text-sm sm:text-base opacity-95">
+              At SND Regenics, we’ve engineered a cutting-edge hybrid machine that combines 3D bioprinting and electrospinning. This innovation is set to revolutionize drug testing, organogenesis, and regenerative medicine. Our technology offers customized solutions that will transform the landscape of biomedical research, laying the foundation for the future of personalized, patient-centric medicine.
+            </p>
+          </div>
+        </div>
+      </section>
+      {/* Our Story band */}
+      <section className="bg-gray-500/80 text-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 text-center">
+          <h2 className="text-2xl sm:text-3xl font-semibold mb-4">Our Story</h2>
+          <p className="mx-auto max-w-4xl text-sm sm:text-base opacity-95">
+            Our founder and CEO, Dr. Lokesh Agrawal, witnessed the profound suffering and financial hardships faced by a close family friend with a spinal cord injury. The emotional toll on the patient and their family left a deep impact on him. While exploring potential solutions, he quickly realized that neural cells are incredibly specialized with a limited ability to regenerate. Additionally, he found that current research methods fell short due to the lack of advanced technology and suitable biomaterials necessary to create 3D neural tissues in the lab for effective treatment. This revelation inspired him to develop innovative bioprinting technology and specialized biomaterials, leading to the founding of SND Regenic Pvt. Ltd.
+          </p>
+        </div>
+      </section>
+      </div>
+      {/* Video section just before Our Team */}
+      <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-8 sm:pb-12" style={{marginTop: "2%"}}>
+        <div className="relative w-full" style={{paddingTop:"56.25%"}}>
+          <iframe
+            className="absolute inset-0 w-full h-full rounded-md border border-black/[.08] dark:border-white/[.145]"
+            src="https://www.youtube.com/embed/8Oy6NONhiTE?modestbranding=1&rel=0&playsinline=1"
+            title="From Discovery to Impact: The Entrepreneurial Journey"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            loading="lazy"
+          />
+        </div>
+      </section>
+      <section className="bg-[#0b0d33] text-white py-12 sm:py-16">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 className="text-center text-2xl sm:text-3xl font-semibold mb-10">Our Team</h2>
+    <div className="flex flex-wrap justify-center gap-x-6 gap-y-10">
+      {/* Member 1 */}
+      <div className="flex flex-col items-center w-72">
+        <img
+          src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/3d8f23ae-0297-4309-bb14-bba4c3b059d0_2x"
+          alt="Dr. Lokesh Agrawal (PhD)"
+          className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
+        />
+        <h3 className="font-bold text-base text-center">CEO &amp; Founder Dr. Lokesh Agrawal (PhD)</h3>
+        <p className="text-xs text-center opacity-90 mt-0.5">
+          PhD. Neuroscience from University of Tsukuba. Expert of tissue engineering, stem cells &amp; biomaterials. More than 5 years experience of R&amp;D and business development.
+        </p>
+      </div>
+
+      {/* Member 2 */}
+      <div className="flex flex-col items-center w-72">
+        <img
+          // src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/f011eeaa-03ab-4503-924e-fed2846f21dc_2x"
+          src={CtoImage.src}
+          alt="PRANAV PANDEY"
+          className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
+        />
+        <h3 className="font-bold text-base text-center">(Engineering, CTO & Co-founder)</h3>
+        <p className="text-xs text-center opacity-90 mt-0.5">
+          Expert of interface programming and electronics with more than 20 years experience working in multinational companies.
+        </p>
+      </div>
+
+      {/* Member 3 */}
+      <div className="flex flex-col items-center w-72">
+        <img
+          src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/98d83016-aba3-4112-a26e-8ce89f92e4a6_2x"
+          alt="Mohd Yaqub Khan"
+          className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
+        />
+        <h3 className="font-bold text-base text-center">CRO &amp; Co-Founder Mohd Yaqub Khan</h3>
+        <p className="text-xs text-center opacity-90 mt-0.5">
+          R&amp;D Scientist with more than 5 years of expertise in animal trials, GMP production, and drug trials.
+        </p>
+      </div>
+
+      {/* Member 4 */}
+      <div className="flex flex-col items-center w-72">
+        <img
+          src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/836d986d-3310-44df-b596-725a0480e285_2x"
+          alt="Naoto Takahashi"
+          className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
+        />
+        <h3 className="font-bold text-base text-center">CAO &amp; Director</h3>
+        <p className="text-xs text-center opacity-90 mt-0.5">
+          Naoto Takahashi is a Japanese Citizen and a senior business executive having experience in sales, administration and finance management
+        </p>
+      </div>
+
+      {/* Mentor & Advisor */}
+      <div className="flex flex-col items-center w-72 mt-4">
+        <img
+          src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/eb55155b-c4ae-484d-83e4-e5a9946369bd_2x"
+          alt="Prof. Randeep Rakwal"
+          className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
+        />
+        <h3 className="font-bold text-base text-center">Mentor &amp; Advisor Prof. Randeep Rakwal</h3>
+        <p className="text-xs text-center opacity-90 mt-0.5">
+          Senior professor at University of Tsukuba, visionary leader, with entrepreneurship and social impact projects.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <div style={{backgroundColor: "red",marginTop:"2%"}}>
+      <section className="bg-[#0b0d33] text-white py-12 sm:py-16">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-center text-2xl sm:text-3xl font-semibold mb-10">Employees</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            {Array.from({length:4}).map((_,i)=> (
+              <div key={i} className="text-center">
+                <div className="w-48 h-48 mx-auto rounded-full bg-white/10" />
+                <h3 className="mt-4 font-medium">Member Name</h3>
+                <p className="text-xs opacity-80">Title / Role</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+      </div>
+      
+    </div>
+  );
+}
+
+
