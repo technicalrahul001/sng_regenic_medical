@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import MobileScrollableNav from "./components/MobileScrollableNav";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import LogoIndia from "../../logoIndia.png";
@@ -31,16 +32,17 @@ export default function RootLayout({
         <div className="min-h-screen flex flex-col">
           <header className=" top-0 z-50 bg-white/80 dark:bg-black/50 backdrop-blur border-b border-black/[.08] dark:border-white/[.145]">
           {/* <div style={{ display: "flex", justifyContent: "center", alignItems: "center", padding: "8px",backgroundColor:"lightblue" }}> */}
-            <Link style={{display: "flex", justifyContent: "center", }} href="/" passHref>
+            <Link style={{display: "flex", justifyContent: "center"}} href="/" passHref>
               <img
                 src={LogoIndia.src}
                 alt="SND Regenic Research Labs Pvt. Ltd., India Logo"
-                style={{ width: "50%", height: "auto", borderRadius: "16px", cursor: "pointer" }}
+                className="block"
+                style={{ width: "30%", height: "auto", borderRadius: "16px", cursor: "pointer" }}
               />
             </Link>
           {/* </div> */}
-            <nav className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-around" >
-              <ul className="hidden md:flex items-center gap-6 text-m">
+            <nav className="hidden md:flex max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 items-center justify-around">
+              <ul className="flex items-center gap-6 text-m">
                 <li><Link className="hover:underline" href="/about">About Us</Link></li>
                 <li><Link className="hover:underline" href="/products-services">Product & Services</Link></li>
                 <li><Link className="hover:underline" href="/research-developments">Research & Developments</Link></li>
@@ -48,6 +50,8 @@ export default function RootLayout({
                 <li><Link className="hover:underline" href="/contact-us">Contact Us</Link></li>
               </ul>
             </nav>
+            {/* Mobile horizontal scroller */}
+            <MobileScrollableNav />
           </header>
           <main className="flex-1">{children}</main>
           <footer className="border-t border-black/[.08] dark:border-white/[.145] py-8 text-sm">
