@@ -85,7 +85,7 @@ export default function ProductsServicesPage() {
     <div className="flex flex-col items-center">
       <img
         src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/f839bbd0-cbff-4145-9a52-e29999c6a5cc"
-        alt="Comprehensive Training Program"
+        alt="Loading"
         className="rounded-md object-cover mb-4 w-full max-w-[340px] h-[140px]"
         style={{ aspectRatio: "2 / 1" }}
       />

@@ -44,6 +44,7 @@ export default function ResearchDevelopmentsPage() {
     { src: "https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/50fe7902-1111-4ac4-9857-ad35b194dcd1_2x", alt: "Collaborator 4" },
   ];
 
+
   return (
     <div>
       {/* HERO SECTION */}
@@ -61,7 +62,7 @@ export default function ResearchDevelopmentsPage() {
             <div key={i} className="rounded-2xl overflow-hidden bg-[#0b0d33] text-white">
               <div style={{ aspectRatio: "1/1", borderRadius: "50%",padding:"10px", }}
                 className="flex items-center justify-center bg-white/10">
-                <img src={work.src} alt={work.caption}
+                <img src={work.src} alt={"Loading..."}
                   style={{ aspectRatio: "1/1", borderRadius: "50%" }}
                   className="tw-rounded-md tw-object-cover tw-max-h-full tw-max-w-full tw-w-full" />
               </div>
