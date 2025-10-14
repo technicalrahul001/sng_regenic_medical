@@ -56,7 +56,7 @@ export default function RootLayout({
           <main className="flex-1">{children}</main>
           <footer className="border-t border-black/[.08] dark:border-white/[.145] py-8 text-sm">
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-center gap-4">
-              <p>© {new Date().getFullYear()} SND REGENIC Reseach Labs Pvt. Ltd., India</p>
+              <p style={{color: "black"}}>© {new Date().getFullYear()} SND REGENIC Reseach Labs Pvt. Ltd., India</p>
             </div>
           </footer>
         </div>

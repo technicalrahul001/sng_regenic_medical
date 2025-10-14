@@ -16,7 +16,7 @@ export default function NewsEventsPage() {
 
       {/* Top Video Section */}
       <section className="max-w-4xl mx-auto px-4 py-10">
-        <p className="text-xs opacity-80 mb-2">
+        <p className="text-xs opacity-80 mb-2" style={{color: "grey"}}>
           Check Out the exclusive interview from the Okinawa Institute of Science & Technology Innovation department, official Video Published by OIST Innovation
         </p>
         <div className="relative w-full overflow-hidden rounded" style={{ paddingTop: "56.25%" }}>
@@ -59,7 +59,7 @@ export default function NewsEventsPage() {
 
       {/* Second Video */}
       <section className="max-w-5xl mx-auto px-4 py-10">
-        <p className="text-xs opacity-80 mb-2">Check out our interview with Ms. Maria Irene!</p>
+        <p className="text-xs opacity-80 mb-2" style={{color: "black"}}>Check out our interview with Ms. Maria Irene!</p>
         <div className="relative w-full overflow-hidden rounded" style={{ paddingTop: "56.25%" }}>
           <iframe
             className="absolute inset-0 w-full h-full"

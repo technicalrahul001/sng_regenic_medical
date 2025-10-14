@@ -26,11 +26,13 @@ export default function ResearchDevelopmentsPage() {
   const ongoing = [
     {
       src: "https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/0f82d726-5e9a-4c0b-a224-11b8cec86fbd",
-      caption: "AI for Research & Healthcare"
+      caption: "AI for Research & Healthcare",
+      alter: "For more details Please contact us..."
     },
     {
       src: "https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/c0d5a809-9067-4ec6-b6ea-ca4d0e669310",
-      caption: "Bioinformatics & Machine Learning"
+      caption: "Bioinformatics & Machine Learning",
+      alter: "For more details Please contact us..."
     }
   ];
 
@@ -53,11 +55,11 @@ export default function ResearchDevelopmentsPage() {
 
       {/* IMAGE CARDS SECTION */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
-        <h2 className="text-center text-2xl sm:text-3xl font-semibold mb-10">Check out our published works!</h2>
+        <h2 className="text-center text-2xl sm:text-3xl font-semibold mb-10" style={{color: "grey"}}>Check out our published works!</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {works.map((work, i) => (
             <div key={i} className="rounded-2xl overflow-hidden bg-[#0b0d33] text-white">
-              <div style={{ aspectRatio: "1/1", borderRadius: "50%" }}
+              <div style={{ aspectRatio: "1/1", borderRadius: "50%",padding:"10px", }}
                 className="flex items-center justify-center bg-white/10">
                 <img src={work.src} alt={work.caption}
                   style={{ aspectRatio: "1/1", borderRadius: "50%" }}
@@ -89,7 +91,7 @@ export default function ResearchDevelopmentsPage() {
           {ongoing.map((item, i) => (
             <div key={i} className="overflow-hidden bg-[#0b0d33] rounded-2xl flex flex-col">
               <div style={{ aspectRatio: "1/1", borderRadius: "50%" }} className="flex items-center justify-center w-full bg-white/10">
-                <img src={item.src} alt={item.caption} style={{ aspectRatio: "1/1", borderRadius: "50%" }} className="tw-rounded-md tw-object-cover tw-max-h-full tw-max-w-full tw-w-full" />
+                <img src={item.src} alt="Loading..." style={{ aspectRatio: "1/1", borderRadius: "50%" }} className="tw-rounded-md tw-object-cover tw-max-h-full tw-max-w-full tw-w-full" />
               </div>
               <p className="px-6 py-4 text-sm text-center text-white opacity-90">{item.caption}</p>
             </div>

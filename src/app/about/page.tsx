@@ -1,4 +1,25 @@
 import CtoImage from "../../../ctoImage.jpeg";
+import Ishrat from "../../app/assets/ishratIntern.jpeg";
+import Anderson from "../../app/assets/andersonIntern.jpeg";
+import Irfan from "../../app/assets/irfhanIntern.jpeg";
+
+const employeeTestData = [
+  {
+    name: "Ishrat Jahan",
+    role: "Master's in Pharmacology Intern employee ",
+    image: Ishrat.src,
+  },
+  {
+    name: "Irfan Ahmed",
+    role: "B.Tech in electronics Intern",
+    image: Irfan.src, // Add image src if available
+  },
+  {
+    name: "Anderson",
+    role: "Master’s in Biomedical engineering CYCU, Taiwan",
+    image: Anderson.src, // Add image src if available
+  },
+];
 
 export default function AboutPage() {
   return (
@@ -124,13 +145,18 @@ export default function AboutPage() {
       <div style={{backgroundColor: "red",marginTop:"2%"}}>
       <section className="bg-[#0b0d33] text-white py-12 sm:py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-center text-2xl sm:text-3xl font-semibold mb-10">Employees</h2>
+          <h2 className="text-center text-2xl sm:text-3xl font-semibold mb-10">Employees Test</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {Array.from({length:4}).map((_,i)=> (
+            {employeeTestData?.map((item,i)=> (
               <div key={i} className="text-center">
-                <div className="w-48 h-48 mx-auto rounded-full bg-white/10" />
-                <h3 className="mt-4 font-medium">Member Name</h3>
-                <p className="text-xs opacity-80">Title / Role</p>
+                
+                <div className="w-48 h-48 mx-auto rounded-full bg-white/10" >
+                <img src={item.image} alt={item.name} className="w-48 h-48 mx-auto rounded-full object-cover mt-4" />
+                </div>
+                
+                <h3 className="mt-4 font-medium">{item.name}</h3>
+                <p className="text-xs opacity-80">{item.role}</p>
+                
               </div>
             ))}
           </div>
