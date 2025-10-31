@@ -89,17 +89,7 @@ export default function AboutPage() {
       </div>
 
       {/* Member 2 */}
-      <div className="flex flex-col items-center w-72 lg:w-1/4">
-        <img
-          src={CtoImage.src}
-          alt="PRANAV PANDEY"
-          className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
-        />
-        <h3 className="font-bold text-base text-center">(Engineering, CTO & Co-founder)</h3>
-        <p className="text-xs text-center opacity-90 mt-0.5">
-          Expert of interface programming and electronics with more than 20 years experience working in multinational companies.
-        </p>
-      </div>
+      
 
       {/* Member 3 */}
       <div className="flex flex-col items-center w-72 lg:w-1/4">
@@ -126,12 +116,7 @@ export default function AboutPage() {
           Naoto Takahashi is a Japanese Citizen and a senior business executive having experience in sales, administration and finance management
         </p>
       </div>
-    </div>
-    
-
-    {/* Mentor & Advisor */}
-    <div className="flex flex-wrap justify-center gap-x-8 gap-y-10 mt-10">
-  <div className="flex flex-col items-center w-full max-w-xs sm:w-72">
+      <div className="flex flex-col items-center w-full max-w-xs sm:w-72">
     <img
       src={Vishal.src}
       alt="Dr. Vishal Gangadhar Warke (M.B.B.S.)"
@@ -142,6 +127,12 @@ export default function AboutPage() {
       Other affiliations: Director R&D Cell Biology, HiMedia Labs Pvt Ltd, Mumbai, India
     </p>
   </div>
+    </div>
+    
+
+    {/* Mentor & Advisor */}
+    <div className="flex flex-wrap justify-center gap-x-8 gap-y-10 mt-10">
+  
   <div className="flex flex-col items-center w-full max-w-xs sm:w-72">
     <img
       src={Rahul.src}
@@ -164,6 +155,17 @@ export default function AboutPage() {
       Senior professor at University of Tsukuba, visionary leader, with entrepreneurship and social impact projects.
     </p>
   </div>
+  <div className="flex flex-col items-center w-72 lg:w-1/4">
+        <img
+          src={CtoImage.src}
+          alt="PRANAV PANDEY"
+          className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
+        />
+        <h3 className="font-bold text-base text-center">Mentor and Advisor</h3>
+        <p className="text-xs text-center opacity-90 mt-0.5">
+          Expert of interface programming and electronics with more than 20 years experience working in multinational companies.
+        </p>
+      </div>
 </div>
 
   </div>

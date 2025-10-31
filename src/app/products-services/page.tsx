@@ -41,7 +41,7 @@ export default function ProductsServicesPage() {
           // style={{padding:"50px"}}
           
         />
-        <h3 className="text-white font-semibold text-lg mb-2 text-center">Biomaterials for Neural Tissue Engineering Test</h3>
+        <h3 className="text-white font-semibold text-lg mb-2 text-center">Biomaterials for Neural Tissue Engineering</h3>
         <p className="text-gray-200 text-xs md:text-sm text-center">
           We offer a range of advanced biomaterials specifically designed to support neural tissue engineering. Our portfolio includes two key types of biomaterials: electrospinning materials and bio-inks. The electrospinning materials are formulated to produce nanofiber-based 3D scaffolds that mimic the natural extracellular matrix, offering an ideal environment for neural cell adhesion, growth, and differentiation. Alongside these, we provide a proprietary bio-ink for 3D printing that is both biocompatible and conductive, specifically formulated to promote the growth and maintenance of neural cells. This bio-ink can be mixed with various cell types, such as neural stem cells or neurons, enabling the fabrication of complex tissue constructs with a controlled cellular density and architecture. The bio-ink degrades naturally over time, leaving behind a mature tissue that integrates seamlessly into the body.
         </p>
