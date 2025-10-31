@@ -139,7 +139,7 @@ export default function AboutPage() {
       alt="Dr. Rahul Gangadhar Warke (Ph.D.)"
       className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
     />
-    <h3 className="font-bold text-base text-center">Co-founder and Mentor Dr. Rahul Warke(phD)</h3>
+    <h3 className="font-bold text-base text-center">Co-founder and Mentor Dr. Rahul Warke(PhD)</h3>
     <p className="text-xs text-center opacity-90 mt-0.5">
       Other affiliations: Director R&D Micro-Biology, HiMedia Labs Pvt Ltd, Mumbai, India
     </p>
