@@ -1,6 +1,7 @@
 import Neuroscience from "../../app/assets/neuroscience.jpeg"
 import AiForResearch from "../../app/assets/aiForResearch.jpeg"
 import BioInformatics from "../../app/assets/bioInformatic.jpeg"
+import RegenerativeMedicine from "../../app/assets/regenrativeMedicine.jpeg"
 import ShreeRameshwaran from "../../app/collaborators/shreeRameshwaram.jpeg"
 import Mohanlal from "../../app/collaborators/mohanlal.jpeg"
 import Tsm from "../../app/collaborators/tsm.jpeg"
@@ -41,6 +42,12 @@ export default function ResearchDevelopmentsPage() {
       // src: "https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/c0d5a809-9067-4ec6-b6ea-ca4d0e669310",
       src: BioInformatics.src,
       caption: "Bioinformatics & Machine Learning",
+      alter: "For more details Please contact us..."
+    },
+    {
+      // src: "https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/c0d5a809-9067-4ec6-b6ea-ca4d0e669310",
+      src: RegenerativeMedicine.src,
+      caption: "regenrative medicine and implants",
       alter: "For more details Please contact us..."
     }
   ];
@@ -114,7 +121,7 @@ export default function ResearchDevelopmentsPage() {
         </div>
         <div className="pt-8">
           <p className="text-xs sm:text-sm text-center text-black max-w-3xl mx-auto">
-            We are currently working on harnessing the power of AI and machine learning to enhance our bioprinting and electrospinning machine capabilities. Our advanced algorithms and predictive models will enable personalized treatment plans, ensuring targeted and effective interventions. By integrating AIPML with our cutting-edge bioprinting and biomaterials, we are at the forefront of revolutionizing precision healthcare. We are committed to transforming the landscape of healthcare and medical research.
+            We are pioneering the use of biomaterials, stem cells, and blood-derived proteins to develop novel regenerative therapies for conditions affecting blood, skin, muscle, bone, and neural tissues. Our approach has the potential to expand into immunotherapy for patients in critical need. In parallel, we are leveraging the power of artificial intelligence and machine learning to enhance the precision and efficiency of our bioprinting and electrospinning systems. Through advanced algorithms and predictive modeling, we aim to enable personalized treatment strategies that ensure targeted and effective interventions. By integrating AI/ML with our next-generation bioprinting technologies and biomaterials, we are driving a new era of precision healthcare—committed to transforming the future of medicine and biomedical research.
           </p>
         </div>
       </section>

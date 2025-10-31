@@ -113,6 +113,8 @@ export default function ContactUsPage() {
               <option>Biomaterials for Neural Tissue Engineering</option>
               <option>Customized 3D Scaffolds & Soft Tissues</option>
               <option>Comprehensive Training Program</option>
+              <option>Regenrative medicine and stem cells</option>
+              <option>Others</option>
             </select>
             <input 
               name="email"
