@@ -111,7 +111,7 @@ export default function AboutPage() {
           alt="Naoto Takahashi"
           className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
         />
-        <h3 className="font-bold text-base text-center">CAO &amp; Director</h3>
+        <h3 className="font-bold text-base text-center">CAO &amp; Director Naoto Takahashi</h3>
         <p className="text-xs text-center opacity-90 mt-0.5">
           Naoto Takahashi is a Japanese Citizen and a senior business executive having experience in sales, administration and finance management
         </p>
@@ -122,7 +122,7 @@ export default function AboutPage() {
       alt="Dr. Vishal Gangadhar Warke (M.B.B.S.)"
       className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
     />
-    <h3 className="font-bold text-base text-center">Co-founder and Mentor</h3>
+    <h3 className="font-bold text-base text-center">Co-founder and Mentor Dr. Vishal Warke(MBBS)</h3>
     <p className="text-xs text-center opacity-90 mt-0.5">
       Other affiliations: Director R&D Cell Biology, HiMedia Labs Pvt Ltd, Mumbai, India
     </p>
@@ -139,7 +139,7 @@ export default function AboutPage() {
       alt="Dr. Rahul Gangadhar Warke (Ph.D.)"
       className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
     />
-    <h3 className="font-bold text-base text-center">Co-founder and Mentor</h3>
+    <h3 className="font-bold text-base text-center">Co-founder and Mentor Dr. Rahul Warke(phD)</h3>
     <p className="text-xs text-center opacity-90 mt-0.5">
       Other affiliations: Director R&D Micro-Biology, HiMedia Labs Pvt Ltd, Mumbai, India
     </p>
@@ -161,9 +161,9 @@ export default function AboutPage() {
           alt="PRANAV PANDEY"
           className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
         />
-        <h3 className="font-bold text-base text-center">Mentor and Advisor</h3>
+        <h3 className="font-bold text-base text-center">Mentor and Advisor Pranav Pandey</h3>
         <p className="text-xs text-center opacity-90 mt-0.5">
-          Expert of interface programming and electronics with more than 20 years experience working in multinational companies.
+          Expert of interface programming and electronics with more than 7 years experience working in multinational companies.
         </p>
       </div>
 </div>
