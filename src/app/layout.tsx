@@ -3,7 +3,7 @@ import Link from "next/link";
 import MobileScrollableNav from "./components/MobileScrollableNav";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import LogoIndia from "../../logoIndia.png";
+import LogoIndia from "../../logoUpdated.png";
 
 
 const geistSans = Geist({
@@ -40,6 +40,9 @@ export default function RootLayout({
                 style={{ width: "30%", height: "auto", borderRadius: "16px", cursor: "pointer" }}
               />
             </Link>
+             <div className="text-center text-3xl font-semibold select-none text-light-black-300">
+  SND Regenic Pvt Ltd
+</div>
           {/* </div> */}
             <nav className="hidden md:flex max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 items-center justify-around">
               <ul className="flex items-center gap-6 text-m">

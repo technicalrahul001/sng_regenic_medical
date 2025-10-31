@@ -19,26 +19,30 @@ export default function Home() {
         
         {/* Country selection with 3D card effect */}
         <div className="flex flex-wrap justify-center gap-8 mb-12">
-          {/* India */}
-          <a
-            // href="/india"
-            className="bg-white backdrop-blur shadow-xl rounded-xl px-8 py-10 border-4 border-indigo-200 hover:scale-105 transition-transform duration-300 drop-shadow-2xl hover:border-indigo-500"
-            style={{boxShadow: '0 6px 32px 0 rgba(60,120,255,0.2)'}}
-          >
-            <img src="/images/india.svg" alt="India" className="w-16 mx-auto mb-4" />
-            <h2 className="text-2xl font-bold text-indigo-700 mb-4">India Location</h2>
-            <p className="text-base text-gray-600">SND Regenic Pvt. Ltd.</p>
-          </a>
           {/* Japan */}
           <a
-            // href="/japan"
+            href='https://groups.oist.jp/sites/default/files/imce/u104348/Lokesh_PII.pdf '
             className="bg-white backdrop-blur shadow-xl rounded-xl px-8 py-10 border-4 border-emerald-200 hover:scale-105 transition-transform duration-300 drop-shadow-2xl hover:border-emerald-500"
             style={{boxShadow: '0 6px 32px 0 rgba(60,255,150,0.15)'}}
           >
-            <img src="/images/japan.svg" alt="Japan" className="w-16 mx-auto mb-4" />
+            {/* <img src="/images/japan.svg" alt="Japan" className="w-16 mx-auto mb-4" /> */}
             <h2 className="text-2xl font-bold text-emerald-700 mb-4">Japan Location</h2>
             <p className="text-base text-gray-600">SND Regenic Pvt. Ltd., Japan</p>
           </a>
+          {/* India */}
+          <a
+  href="/PresentationIndia.pdf"      // Replace with your actual PDF path
+  target="_blank"                   // Opens PDF in a new tab
+  rel="noopener noreferrer"        // Security and performance best practice
+  className="bg-white backdrop-blur shadow-xl rounded-xl px-8 py-10 border-4 border-indigo-200 hover:scale-105 transition-transform duration-300 drop-shadow-2xl hover:border-indigo-500"
+  style={{ boxShadow: '0 6px 32px 0 rgba(60,120,255,0.2)' }}
+>
+  {/* <img src="/images/india.svg" alt="India" className="w-16 mx-auto mb-4" /> */}
+  <h2 className="text-2xl font-bold text-indigo-700 mb-4">India Location</h2>
+  <p className="text-base text-gray-600">SND Regenic Pvt. Ltd.</p>
+</a>
+
+          
         </div>
         
         {/* Highlights and features in animated 3D cards */}
