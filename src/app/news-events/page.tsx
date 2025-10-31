@@ -1,9 +1,13 @@
+import TsMishraSigning from "../../app/events/tsMishraSigningCeremony.jpeg"
+import SrmuSigning from "../../app/events/srmuSigningCeremony.jpeg"
+import RajasthanCo from "../../app/events/rajastahnCoPrenurship.jpeg"
+import MagazineArticle from "../../app/events/magazineArticle.jpeg"
 export default function NewsEventsPage() {
   return (
     <div>
       {/* Hero Section */}
       <section
-        className="relative h-[220px] sm:h-[300px] flex items-center justify-center text-white"
+        className="relative h-[220px] sm:h-[110px] flex items-center justify-center text-white"
         style={{
           backgroundImage: "url(/hero-news.jpg)",
           backgroundSize: "cover",
@@ -20,15 +24,15 @@ export default function NewsEventsPage() {
           Check Out the exclusive interview from the Okinawa Institute of Science & Technology Innovation department, official Video Published by OIST Innovation
         </p>
         <div className="relative w-full overflow-hidden rounded" style={{ paddingTop: "56.25%" }}>
-          <iframe
-            className="absolute inset-0 w-full h-full"
-            src="https://www.youtube.com/embed/4f4a1213-babe-42b9-979d-d0fc00a63ec0"
-            title="OIST Innovation Video"
-            loading="lazy"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          />
-        </div>
+  <iframe
+    className="absolute inset-0 w-full h-full"
+    src="https://www.youtube.com/embed/3M0Z_rfXWuc"
+    title="OIST Innovation Video"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+  />
+</div>
       </section>
 
       {/* News Article Section */}
@@ -49,6 +53,7 @@ export default function NewsEventsPage() {
               className="w-full rounded"
               src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/6472d099-0318-4312-8d12-a1a856267651_2x"
               alt="image"
+              style={{height: "90%", width: "100%"}}
             />
             <figcaption className="text-xs mt-2 opacity-90">
               We featured in a news article in LedgerLife! Click on the image for a link to the article.
@@ -58,25 +63,52 @@ export default function NewsEventsPage() {
       </section>
 
       {/* Second Video */}
-      <section className="max-w-5xl mx-auto px-4 py-10">
-        <p className="text-xs opacity-80 mb-2" style={{color: "black"}}>Check out our interview with Ms. Maria Irene!</p>
-        <div className="relative w-full overflow-hidden rounded" style={{ paddingTop: "56.25%" }}>
-          <iframe
-            className="absolute inset-0 w-full h-full"
-            src="https://www.youtube.com/embed/Z3P3ob-ZKHI"
-            title="Interview with Maria Irene"
-            loading="lazy"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          />
-        </div>
-      </section>
+      <section className="max-w-5xl mx-auto px-4 py-12">
+  <h2 className="text-2xl font-bold text-center mb-8 text-[#0b0d33]">Featured Interviews</h2>
+  <div className="flex flex-col md:flex-row gap-8 overflow-x-auto">
+    {/* First Video Card */}
+    <div className="flex-1 bg-white rounded-lg shadow-md border border-gray-100 hover:shadow-lg transition-shadow duration-200 min-w-[320px] max-w-[500px] mx-auto">
+      <div className="relative w-full overflow-hidden rounded-t-lg" style={{ paddingTop: "56.25%" }}>
+        <iframe
+          className="absolute inset-0 w-full h-full"
+          src="https://www.youtube.com/embed/Z3P3ob-ZKHI"
+          title="Interview with Maria Irene"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        />
+      </div>
+      <div className="p-4">
+        <h3 className="text-lg font-semibold mb-1 text-[#0b0d33]">Interview with Ms. Maria Irene</h3>
+        <p className="text-xs opacity-80 text-gray-700">Check out our interview with Ms. Maria Irene!</p>
+      </div>
+    </div>
+    {/* Second Video Card */}
+    <div className="flex-1 bg-white rounded-lg shadow-md border border-gray-100 hover:shadow-lg transition-shadow duration-200 min-w-[320px] max-w-[500px] mx-auto">
+      <div className="relative w-full overflow-hidden rounded-t-lg" style={{ paddingTop: "56.25%" }}>
+        <iframe
+          className="absolute inset-0 w-full h-full"
+          src="https://www.youtube.com/embed/ZSS3BoLvV1Y"
+          title="Second Interview"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        />
+      </div>
+      <div className="p-4">
+        <h3 className="text-lg font-semibold mb-1 text-[#0b0d33]">Interview by Nupur Tiwari</h3>
+        <p className="text-xs opacity-80 text-gray-700">Discover more insights in our second featured interview!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Events Section */}
       <section className="bg-[#0b0d33] py-12 text-white text-center">
         <h2 className="text-2xl font-semibold mb-8">Events</h2>
 
-        <div className="bg-gray-600 py-2 mb-6">
+        <div className="bg-gray-600 sm:h-[90px] py-2 mb-6 flex items-center justify-center">
           <h3 className="text-lg font-medium">2024</h3>
         </div>
 
@@ -106,17 +138,33 @@ export default function NewsEventsPage() {
               src: "https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/858bc131-e317-4125-a2cb-ac4b8ffa9332_2x",
               caption: "MOU signed with MLSU public university, Udaipur",
             },
+            {
+              src: TsMishraSigning.src,
+              caption: "MOU signing ceremony TS Mishra University Lucknow Uttar Pradesh India",
+            },
+            {
+              src: SrmuSigning.src,
+              caption: "MOU signing ceremony SRMU Uttar Pradesh India",
+            },
+            {
+              src: RajasthanCo.src,
+              caption: "Rajasthan Co-preneurs meetup 2025, Jaipur, India",
+            },
+            {
+              src: MagazineArticle.src,
+              caption: "An article in a Magazine published in Connect India and Japan.",
+            },
           ].map((item, idx) => (
-            <figure key={idx} className="bg-white/5 rounded-md overflow-hidden p-2 h-88">
-              <img src={item.src} alt={item.caption} className="w-full rounded-md" style={{height: "80%", marginTop: "3%"}} />
+            <figure key={idx} className="bg-white/5 rounded-md overflow-hidden p-2 h-92">
+              <img src={item.src} alt={item.caption} className="w-full rounded-md" style={{height: "85%", marginTop: "3%"}} />
               <figcaption className="text-xs mt-2 text-zinc-300" style={{marginTop:"5%"}}>{item.caption}</figcaption>
             </figure>
           ))}
         </div>
 
-        <p className="text-[10px] mt-10 text-zinc-400">
+        {/* <p className="text-[10px] mt-10 text-zinc-400">
           © 2024 by SND REGENIC PVT LTD. All Rights Reserved.
-        </p>
+        </p> */}
       </section>
     </div>
   );

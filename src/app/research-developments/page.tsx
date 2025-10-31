@@ -1,3 +1,9 @@
+import Neuroscience from "../../app/assets/neuroscience.jpeg"
+import AiForResearch from "../../app/assets/aiForResearch.jpeg"
+import BioInformatics from "../../app/assets/bioInformatic.jpeg"
+import ShreeRameshwaran from "../../app/collaborators/shreeRameshwaram.jpeg"
+import Mohanlal from "../../app/collaborators/mohanlal.jpeg"
+import Tsm from "../../app/collaborators/tsm.jpeg"
 export default function ResearchDevelopmentsPage() {
   const works = [
     {
@@ -9,7 +15,8 @@ export default function ResearchDevelopmentsPage() {
       caption: "3D-Bioprinting & Scaffolding"
     },
     {
-      src: "https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/b561fb54-237e-49c0-aac7-e99edb474a4d",
+      // src: "https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/b561fb54-237e-49c0-aac7-e99edb474a4d",
+      src: Neuroscience.src,
       caption: "Neuroscience"
     }
   ];
@@ -25,12 +32,14 @@ export default function ResearchDevelopmentsPage() {
 
   const ongoing = [
     {
-      src: "https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/0f82d726-5e9a-4c0b-a224-11b8cec86fbd",
+      // src: "https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/0f82d726-5e9a-4c0b-a224-11b8cec86fbd",
+      src: AiForResearch.src,
       caption: "AI for Research & Healthcare",
       alter: "For more details Please contact us..."
     },
     {
-      src: "https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/c0d5a809-9067-4ec6-b6ea-ca4d0e669310",
+      // src: "https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/c0d5a809-9067-4ec6-b6ea-ca4d0e669310",
+      src: BioInformatics.src,
       caption: "Bioinformatics & Machine Learning",
       alter: "For more details Please contact us..."
     }
@@ -41,19 +50,24 @@ export default function ResearchDevelopmentsPage() {
     { src: "https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/fa98c2e1-56e0-4da7-b0a2-d6afb5de7609_2x", alt: "Collaborator 1" },
     { src: "https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/2b61b2f0-7c52-42ec-855d-33884b850866_2x", alt: "Collaborator 2" },
     { src: "https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/c7c374a2-de85-40e4-927f-7f6e0b57f0b7_2x", alt: "Collaborator 3" },
-    { src: "https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/50fe7902-1111-4ac4-9857-ad35b194dcd1_2x", alt: "Collaborator 4" },
+    {src: ShreeRameshwaran.src, alt: "Collaborator 3"},
+    {src: Mohanlal.src, alt: "Collaborator 4"},
+    {src: Tsm.src, alt: "Collaborator 5"},
+    // { src: "https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/50fe7902-1111-4ac4-9857-ad35b194dcd1_2x", alt: "Collaborator 4" },
   ];
 
 
   return (
     <div>
       {/* HERO SECTION */}
-      <section className="relative h-[240px] sm:h-[320px] flex items-center justify-center text-white"
+      <section className="relative h-[240px] sm:h-[120px] flex items-center justify-center text-white"
         style={{ backgroundImage: "url(/hero-research.jpg)", backgroundSize: "cover", backgroundPosition: "center" }}>
         <div className="absolute inset-0 bg-black/50" />
         <h1 className="relative text-3xl sm:text-4xl font-semibold">Research</h1>
       </section>
-
+{/* <section className="bg-gray-500 text-white py-10 text-center">
+        <h2 className="text-2xl sm:text-3xl font-semibold mb-2">Ongoing Developments</h2>
+      </section> */}
       {/* IMAGE CARDS SECTION */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
         <h2 className="text-center text-2xl sm:text-3xl font-semibold mb-10" style={{color: "grey"}}>Check out our published works!</h2>
@@ -113,7 +127,7 @@ export default function ResearchDevelopmentsPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
           <div className="flex flex-wrap gap-x-12 gap-y-12 justify-center">
             {collaborators.map((collab, idx) => (
-              <img key={idx} src={collab.src} alt={collab.alt} className="object-contain" style={{ height: idx < 2 ? 80 : 64, aspectRatio: 2, maxWidth: '250px', minWidth: '120px' }} />
+              <img key={idx} src={collab.src} alt={collab.alt} className="object-contain" style={{ height: idx < 2 ? 80 : 82, aspectRatio: 2, maxWidth: '250px', minWidth: '120px' }} />
             ))}
           </div>
         </div>

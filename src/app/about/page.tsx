@@ -2,6 +2,8 @@ import CtoImage from "../../../ctoImage.jpeg";
 import Ishrat from "../../app/assets/ishratIntern.jpeg";
 import Anderson from "../../app/assets/andersonIntern.jpeg";
 import Irfan from "../../app/assets/irfhanIntern.jpeg";
+import Rahul from "../../app/assets/rahul.jpeg";
+import Vishal from "../../app/assets/vishal.jpeg"
 
 const employeeTestData = [
   {
@@ -72,9 +74,9 @@ export default function AboutPage() {
       <section className="bg-[#0b0d33] text-white py-12 sm:py-16">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <h2 className="text-center text-2xl sm:text-3xl font-semibold mb-10">Our Team</h2>
-    <div className="flex flex-wrap justify-center gap-x-6 gap-y-10">
+    <div className="flex flex-wrap lg:flex-nowrap justify-center gap-x-6 gap-y-10">
       {/* Member 1 */}
-      <div className="flex flex-col items-center w-72">
+      <div className="flex flex-col items-center w-72 lg:w-1/4">
         <img
           src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/3d8f23ae-0297-4309-bb14-bba4c3b059d0_2x"
           alt="Dr. Lokesh Agrawal (PhD)"
@@ -87,9 +89,8 @@ export default function AboutPage() {
       </div>
 
       {/* Member 2 */}
-      <div className="flex flex-col items-center w-72">
+      <div className="flex flex-col items-center w-72 lg:w-1/4">
         <img
-          // src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/f011eeaa-03ab-4503-924e-fed2846f21dc_2x"
           src={CtoImage.src}
           alt="PRANAV PANDEY"
           className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
@@ -101,7 +102,7 @@ export default function AboutPage() {
       </div>
 
       {/* Member 3 */}
-      <div className="flex flex-col items-center w-72">
+      <div className="flex flex-col items-center w-72 lg:w-1/4">
         <img
           src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/98d83016-aba3-4112-a26e-8ce89f92e4a6_2x"
           alt="Mohd Yaqub Khan"
@@ -114,7 +115,7 @@ export default function AboutPage() {
       </div>
 
       {/* Member 4 */}
-      <div className="flex flex-col items-center w-72">
+      <div className="flex flex-col items-center w-72 lg:w-1/4">
         <img
           src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/836d986d-3310-44df-b596-725a0480e285_2x"
           alt="Naoto Takahashi"
@@ -125,9 +126,36 @@ export default function AboutPage() {
           Naoto Takahashi is a Japanese Citizen and a senior business executive having experience in sales, administration and finance management
         </p>
       </div>
+    </div>
+    
 
-      {/* Mentor & Advisor */}
-      <div className="flex flex-col items-center w-72 mt-4">
+    {/* Mentor & Advisor */}
+    <div className="flex justify-center mt-10">
+      <div className="flex flex-col items-center w-72">
+        <img
+          // src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/eb55155b-c4ae-484d-83e4-e5a9946369bd_2x"
+          src={Vishal.src}
+          alt="Dr. Vishal Gangadhar Warke (M.B.B.S.)"
+          className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
+        />
+        <h3 className="font-bold text-base text-center"> Co-founder and Mentor</h3>
+        <p className="text-xs text-center opacity-90 mt-0.5">
+          Other affiliations: Director R&D Cell Biology, HiMedia Labs Pvt Ltd, Mumbai, India
+        </p>
+      </div>
+      <div className="flex flex-col items-center w-72">
+        <img
+          // src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/eb55155b-c4ae-484d-83e4-e5a9946369bd_2x"
+          src={Rahul.src}
+          alt="Dr. Rahul Gangadhar Warke (Ph.D.)"
+          className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
+        />
+        <h3 className="font-bold text-base text-center">Co-founder and Mentor</h3>
+        <p className="text-xs text-center opacity-90 mt-0.5">
+          Other affiliations: Director R&D Micro-Biology, HiMedia Labs Pvt Ltd, Mumbai, India
+        </p>
+      </div>
+      <div className="flex flex-col items-center w-72">
         <img
           src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/eb55155b-c4ae-484d-83e4-e5a9946369bd_2x"
           alt="Prof. Randeep Rakwal"
@@ -142,10 +170,11 @@ export default function AboutPage() {
   </div>
 </section>
 
+
       <div style={{backgroundColor: "red",marginTop:"2%"}}>
       <section className="bg-[#0b0d33] text-white py-12 sm:py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-center text-2xl sm:text-3xl font-semibold mb-10">Employees Test</h2>
+          <h2 className="text-center text-2xl sm:text-3xl font-semibold mb-10">interns/employees</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {employeeTestData?.map((item,i)=> (
               <div key={i} className="text-center">

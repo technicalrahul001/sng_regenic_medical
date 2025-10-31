@@ -1,3 +1,5 @@
+import BioMaterial from "../../app/assets/bioMaterials.jpeg"
+import Comprehensive from "../../app/assets/comprehensive.jpeg"
 export default function ProductsServicesPage() {
   return (
     <div>
@@ -22,7 +24,7 @@ export default function ProductsServicesPage() {
         <img
           src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/cab90937-74af-4717-9ea5-b84da2ec8026_2x"
           alt=" For more details please contact with us..!"
-          className="rounded-md object-cover mb-4 w-full max-w-[350px] h-[140px]"
+          className="rounded-md object-cover mb-4 w-full max-w-[350px] h-[200px]"
         />
         <h3 className="text-white font-semibold text-lg mb-2 text-center">Hybrid Fabrication Technology</h3>
         <p className="text-gray-200 text-xs md:text-sm text-center">
@@ -32,9 +34,11 @@ export default function ProductsServicesPage() {
       {/* Product 2 */}
       <div className="flex flex-col items-center">
         <img
-          src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/b561fb54-237e-49c0-aac7-e99edb474a4d"
+          // src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/b561fb54-237e-49c0-aac7-e99edb474a4d"
+          src={BioMaterial.src}
           alt="For more details please contact with us..!"
-          className="rounded-md object-cover mb-4 w-full max-w-[350px] h-[140px]"
+          className="rounded-md object-cover mb-4 w-full max-w-[350px] h-[200px]"
+          // style={{padding:"50px"}}
           
         />
         <h3 className="text-white font-semibold text-lg mb-2 text-center">Biomaterials for Neural Tissue Engineering Test</h3>
@@ -61,7 +65,7 @@ export default function ProductsServicesPage() {
   ></iframe>
 </div>
 {/* Our Services Header Bar */}
-<div className="w-full py-16 text-center" style={{ background: "#899c9b" }}>
+<div className="w-full py-10 text-center" style={{ background: "#899c9b" }}>
   <h2 className="text-white text-3xl font-semibold">Our Services</h2>
 </div>
 
@@ -84,7 +88,8 @@ export default function ProductsServicesPage() {
     {/* Service 2 */}
     <div className="flex flex-col items-center">
       <img
-        src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/f839bbd0-cbff-4145-9a52-e29999c6a5cc"
+        // src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/f839bbd0-cbff-4145-9a52-e29999c6a5cc"
+        src={Comprehensive.src}
         alt="Loading"
         className="rounded-md object-cover mb-4 w-full max-w-[340px] h-[140px]"
         style={{ aspectRatio: "2 / 1" }}

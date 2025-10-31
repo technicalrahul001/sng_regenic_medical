@@ -151,8 +151,23 @@ export default function ContactUsPage() {
           </form>
         </div>
       </section>
-      {/* Map embed */}
-      <section className="py-8">
+      
+      {/* Map embed Japan*/}
+      {/* <section className="py-8">
+        <div className="max-w-4xl mx-auto px-4">
+          <div className="relative w-full overflow-hidden rounded border border-black/[.08] dark:border-white/[.145]" style={{paddingTop:"56.25%"}}>
+            <iframe
+              className="absolute inset-0 w-full h-full"
+              src="https://www.google.com/maps?q=26.4573317,127.8238461&z=17&output=embed"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              allowFullScreen
+            />
+          </div>
+        </div>
+      </section> */}
+      {/* Map embed India*/}
+      {/* <section className="py-8">
         <div className="max-w-4xl mx-auto px-4">
           <div className="relative w-full overflow-hidden rounded border border-black/[.08] dark:border-white/[.145]" style={{paddingTop:"56.25%"}}>
             <iframe
@@ -164,7 +179,39 @@ export default function ContactUsPage() {
             />
           </div>
         </div>
-      </section>
+      </section> */}
+      {/* Map embed Japan with Title */}
+<section className="py-8">
+  <div className="max-w-4xl mx-auto px-4">
+    <h3 className="text-xl font-semibold mb-4 text-center">Office Location in Japan</h3>
+    <div className="relative w-full overflow-hidden rounded border border-black/[.08] dark:border-white/[.145]" style={{paddingTop:"56.25%"}}>
+      <iframe
+        className="absolute inset-0 w-full h-full"
+        src="https://www.google.com/maps?q=26.4573317,127.8238461&z=17&output=embed"
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+        allowFullScreen
+      />
+    </div>
+  </div>
+</section>
+
+{/* Map embed India with Title */}
+<section className="py-8">
+  <div className="max-w-4xl mx-auto px-4">
+    <h3 className="text-xl font-semibold mb-4 text-center">Office Location in India</h3>
+    <div className="relative w-full overflow-hidden rounded border border-black/[.08] dark:border-white/[.145]" style={{paddingTop:"56.25%"}}>
+      <iframe
+        className="absolute inset-0 w-full h-full"
+        src="https://www.google.com/maps?q=26.8351271,75.8286425&z=15&output=embed"
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+        allowFullScreen
+      />
+    </div>
+  </div>
+</section>
+
       {/* Social follow band */}
       <section className="bg-[#0b0d33] text-white py-8">
   <div className="max-w-6xl mx-auto px-4 text-center">
