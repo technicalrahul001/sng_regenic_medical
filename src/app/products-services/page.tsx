@@ -40,7 +40,7 @@ export default function ProductsServicesPage() {
                 className="rounded-md object-cover mb-4 w-full max-w-[350px] h-[300px]"
               />
               <h3 className="text-white font-semibold text-lg mb-2 text-center">
-                Biological implants, nerve conduits and Autologous Grafts
+                Personalized Biological implants, nerve conduits and Autologous Grafts
               </h3>
             </Link>
 
