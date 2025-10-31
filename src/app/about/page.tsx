@@ -3,7 +3,7 @@ import Ishrat from "../../app/assets/ishratIntern.jpeg";
 import Anderson from "../../app/assets/andersonIntern.jpeg";
 import Irfan from "../../app/assets/irfhanIntern.jpeg";
 import Rahul from "../../app/assets/rahul.jpeg";
-import Vishal from "../../app/assets/vishal.jpeg"
+import Vishal from "../../app/assets/Vishal.jpeg"
 
 const employeeTestData = [
   {
