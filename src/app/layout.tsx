@@ -46,11 +46,11 @@ export default function RootLayout({
           {/* </div> */}
             <nav className="hidden md:flex max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 items-center justify-around">
               <ul className="flex items-center gap-6 text-m">
-                <li><Link className="hover:underline" href="/about">About Us</Link></li>
-                <li><Link className="hover:underline" href="/products-services">Product & Services</Link></li>
-                <li><Link className="hover:underline" href="/research-developments">Research & Developments</Link></li>
-                <li><Link className="hover:underline" href="/news-events">News & Events</Link></li>
-                <li><Link className="hover:underline" href="/contact-us">Contact Us</Link></li>
+                <li><Link className="hover:no-underline" href="/about">About Us</Link></li>
+                <li><Link className="hover:no-underline" href="/products-services">Product & Services</Link></li>
+                <li><Link className="hover:no-underline" href="/research-developments">Research & Developments</Link></li>
+                <li><Link className="hover:no-underline" href="/news-events">News & Events</Link></li>
+                <li><Link className="hover:no-underline" href="/contact-us">Contact Us</Link></li>
               </ul>
             </nav>
             {/* Mobile horizontal scroller */}

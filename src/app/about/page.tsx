@@ -32,7 +32,7 @@ export default function AboutPage() {
         <div className="absolute inset-0 bg-black/40" />
         <div className="relative max-w-3xl mx-auto px-4 text-center">
           <p className="text-xl sm:text-2xl font-semibold">
-            &quot;From blueprint to tissue: revolutionizing regenerative medicine research with 3D bioprinting!&quot;
+            &quot;From Blueprint to Tissue — Where Research Inspires Innovation in Regenerative Medicine&quot;
           </p>
         </div>
       </section>
@@ -43,7 +43,7 @@ export default function AboutPage() {
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="text-2xl sm:text-3xl font-semibold mb-4">Our Mission</h2>
             <p className="text-sm sm:text-base opacity-95">
-              At SND Regenics, we’ve engineered a cutting-edge hybrid machine that combines 3D bioprinting and electrospinning. This innovation is set to revolutionize drug testing, organogenesis, and regenerative medicine. Our technology offers customized solutions that will transform the landscape of biomedical research, laying the foundation for the future of personalized, patient-centric medicine.
+              At SND Regenics, we develop advanced technologies in personalized and regenerative medicine to treat complex conditions like nerve and spinal cord injuries. Our innovations in stem cells, biomaterials, and 3D bioprinting extend to blood, skin, bone, muscle, and immune disorders, transforming healthcare through patient-centric, next-generation solutions.
             </p>
           </div>
         </div>

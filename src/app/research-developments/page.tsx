@@ -47,7 +47,7 @@ export default function ResearchDevelopmentsPage() {
     {
       // src: "https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/c0d5a809-9067-4ec6-b6ea-ca4d0e669310",
       src: RegenerativeMedicine.src,
-      caption: "regenrative medicine and implants",
+      caption: "Regenrative Medicine & Implants",
       alter: "For more details Please contact us..."
     }
   ];
