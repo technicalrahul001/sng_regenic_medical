@@ -2,9 +2,9 @@ import Neuroscience from "../../app/assets/neuroscience.jpeg"
 import AiForResearch from "../../app/assets/aiForResearch.jpeg"
 import BioInformatics from "../../app/assets/bioInformatic.jpeg"
 import RegenerativeMedicine from "../../app/assets/regenrativeMedicine.jpeg"
-import ShreeRameshwaran from "../../app/collaborators/shreeRameshwaram.jpeg"
+import ShreeRameshwaran from "../../app/collaborators/shreeRameshwaram.png"
 import Mohanlal from "../../app/collaborators/mohanlal.jpeg"
-import Tsm from "../../app/collaborators/tsm.jpeg"
+import Tsm from "../../app/collaborators/Tsm.png"
 export default function ResearchDevelopmentsPage() {
   const works = [
     {
