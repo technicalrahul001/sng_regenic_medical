@@ -108,23 +108,30 @@ export default function ResearchDevelopmentsPage() {
       <section className="bg-gray-500 text-white py-10 text-center">
         <h2 className="text-2xl sm:text-3xl font-semibold mb-2">Ongoing Developments</h2>
       </section>
-      <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {ongoing.map((item, i) => (
-            <div key={i} className="overflow-hidden bg-[#0b0d33] rounded-2xl flex flex-col">
-              <div style={{ aspectRatio: "1/1", borderRadius: "50%" }} className="flex items-center justify-center w-full bg-white/10">
-                <img src={item.src} alt="Loading..." style={{ aspectRatio: "1/1", borderRadius: "50%" }} className="tw-rounded-md tw-object-cover tw-max-h-full tw-max-w-full tw-w-full" />
-              </div>
-              <p className="px-6 py-4 text-sm text-center text-white opacity-90">{item.caption}</p>
-            </div>
-          ))}
-        </div>
-        <div className="pt-8">
-          <p className="text-xs sm:text-sm text-center text-black max-w-3xl mx-auto">
-            We are pioneering the use of biomaterials, stem cells, and blood-derived proteins to develop novel regenerative therapies for conditions affecting blood, skin, muscle, bone, and neural tissues. Our approach has the potential to expand into immunotherapy for patients in critical need. In parallel, we are leveraging the power of artificial intelligence and machine learning to enhance the precision and efficiency of our bioprinting and electrospinning systems. Through advanced algorithms and predictive modeling, we aim to enable personalized treatment strategies that ensure targeted and effective interventions. By integrating AI/ML with our next-generation bioprinting technologies and biomaterials, we are driving a new era of precision healthcare—committed to transforming the future of medicine and biomedical research.
-          </p>
-        </div>
-      </section>
+      <section className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+    {ongoing.map((item, i) => (
+      <div key={i} className="overflow-hidden bg-[#0b0d33] rounded-2xl flex flex-col">
+        <div style={{ aspectRatio: "1 / 1", borderRadius: "50%", width: "12rem", height: "12rem" }} className="flex items-center justify-center mx-auto bg-white/10">
+  <img
+    src={item.src}
+    alt="Loading..."
+    style={{ aspectRatio: "1 / 1", borderRadius: "50%", width: "11.5rem", height: "11.5rem" }}
+    className="tw-rounded-md tw-object-cover"
+  />
+</div>
+        <p className="px-4 py-2 text-xs sm:text-sm text-center text-white opacity-90">{item.caption}</p>
+      </div>
+    ))}
+  </div>
+  <div className="pt-4">
+    <p className="text-xs text-center text-black max-w-2xl mx-auto">
+      We are pioneering the use of biomaterials, stem cells, and blood-derived proteins to develop novel regenerative therapies for conditions affecting blood, skin, muscle, bone, and neural tissues. Our approach has the potential to expand into immunotherapy for patients in critical need. In parallel, we are leveraging the power of artificial intelligence and machine learning to enhance the precision and efficiency of our bioprinting and electrospinning systems. Through advanced algorithms and predictive modeling, we aim to enable personalized treatment strategies that ensure targeted and effective interventions. By integrating AI/ML with our next-generation bioprinting technologies and biomaterials, we are driving a new era of precision healthcare—committed to transforming the future of medicine and biomedical research.
+    </p>
+  </div>
+</section>
+
+
 
       {/* OUR COLLABORATORS SECTION */}
       <section className="bg-gray-500 text-white py-10 text-center">
