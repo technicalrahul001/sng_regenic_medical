@@ -130,43 +130,42 @@ export default function AboutPage() {
     
 
     {/* Mentor & Advisor */}
-    <div className="flex justify-center mt-10">
-      <div className="flex flex-col items-center w-72">
-        <img
-          // src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/eb55155b-c4ae-484d-83e4-e5a9946369bd_2x"
-          src={Vishal.src}
-          alt="Dr. Vishal Gangadhar Warke (M.B.B.S.)"
-          className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
-        />
-        <h3 className="font-bold text-base text-center"> Co-founder and Mentor</h3>
-        <p className="text-xs text-center opacity-90 mt-0.5">
-          Other affiliations: Director R&D Cell Biology, HiMedia Labs Pvt Ltd, Mumbai, India
-        </p>
-      </div>
-      <div className="flex flex-col items-center w-72">
-        <img
-          // src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/eb55155b-c4ae-484d-83e4-e5a9946369bd_2x"
-          src={Rahul.src}
-          alt="Dr. Rahul Gangadhar Warke (Ph.D.)"
-          className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
-        />
-        <h3 className="font-bold text-base text-center">Co-founder and Mentor</h3>
-        <p className="text-xs text-center opacity-90 mt-0.5">
-          Other affiliations: Director R&D Micro-Biology, HiMedia Labs Pvt Ltd, Mumbai, India
-        </p>
-      </div>
-      <div className="flex flex-col items-center w-72">
-        <img
-          src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/eb55155b-c4ae-484d-83e4-e5a9946369bd_2x"
-          alt="Prof. Randeep Rakwal"
-          className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
-        />
-        <h3 className="font-bold text-base text-center">Mentor &amp; Advisor Prof. Randeep Rakwal</h3>
-        <p className="text-xs text-center opacity-90 mt-0.5">
-          Senior professor at University of Tsukuba, visionary leader, with entrepreneurship and social impact projects.
-        </p>
-      </div>
-    </div>
+    <div className="flex flex-wrap justify-center gap-x-8 gap-y-10 mt-10">
+  <div className="flex flex-col items-center w-full max-w-xs sm:w-72">
+    <img
+      src={Vishal.src}
+      alt="Dr. Vishal Gangadhar Warke (M.B.B.S.)"
+      className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
+    />
+    <h3 className="font-bold text-base text-center">Co-founder and Mentor</h3>
+    <p className="text-xs text-center opacity-90 mt-0.5">
+      Other affiliations: Director R&D Cell Biology, HiMedia Labs Pvt Ltd, Mumbai, India
+    </p>
+  </div>
+  <div className="flex flex-col items-center w-full max-w-xs sm:w-72">
+    <img
+      src={Rahul.src}
+      alt="Dr. Rahul Gangadhar Warke (Ph.D.)"
+      className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
+    />
+    <h3 className="font-bold text-base text-center">Co-founder and Mentor</h3>
+    <p className="text-xs text-center opacity-90 mt-0.5">
+      Other affiliations: Director R&D Micro-Biology, HiMedia Labs Pvt Ltd, Mumbai, India
+    </p>
+  </div>
+  <div className="flex flex-col items-center w-full max-w-xs sm:w-72">
+    <img
+      src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/eb55155b-c4ae-484d-83e4-e5a9946369bd_2x"
+      alt="Prof. Randeep Rakwal"
+      className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
+    />
+    <h3 className="font-bold text-base text-center">Mentor &amp; Advisor Prof. Randeep Rakwal</h3>
+    <p className="text-xs text-center opacity-90 mt-0.5">
+      Senior professor at University of Tsukuba, visionary leader, with entrepreneurship and social impact projects.
+    </p>
+  </div>
+</div>
+
   </div>
 </section>
 

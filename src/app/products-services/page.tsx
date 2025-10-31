@@ -24,7 +24,7 @@ export default function ProductsServicesPage() {
         <img
           src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/cab90937-74af-4717-9ea5-b84da2ec8026_2x"
           alt=" For more details please contact with us..!"
-          className="rounded-md object-cover mb-4 w-full max-w-[350px] h-[200px]"
+          className="rounded-md object-cover mb-4 w-full max-w-[350px] h-[300px]"
         />
         <h3 className="text-white font-semibold text-lg mb-2 text-center">Hybrid Fabrication Technology</h3>
         <p className="text-gray-200 text-xs md:text-sm text-center">
@@ -37,7 +37,7 @@ export default function ProductsServicesPage() {
           // src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/b561fb54-237e-49c0-aac7-e99edb474a4d"
           src={BioMaterial.src}
           alt="For more details please contact with us..!"
-          className="rounded-md object-cover mb-4 w-full max-w-[350px] h-[200px]"
+          className="rounded-md object-cover mb-4 w-full max-w-[350px] h-[300px]"
           // style={{padding:"50px"}}
           
         />

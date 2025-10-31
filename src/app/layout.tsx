@@ -40,7 +40,7 @@ export default function RootLayout({
                 style={{ width: "30%", height: "auto", borderRadius: "16px", cursor: "pointer" }}
               />
             </Link>
-             <div className="text-center text-3xl font-semibold select-none text-light-black-300">
+             <div className="text-center text-3xl font-semibold select-none text-light-black">
   SND Regenic Pvt Ltd
 </div>
           {/* </div> */}

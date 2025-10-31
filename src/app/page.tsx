@@ -27,7 +27,7 @@ export default function Home() {
           >
             {/* <img src="/images/japan.svg" alt="Japan" className="w-16 mx-auto mb-4" /> */}
             <h2 className="text-2xl font-bold text-emerald-700 mb-4">Japan Location</h2>
-            <p className="text-base text-gray-600">SND Regenic Pvt. Ltd., Japan</p>
+            <p className="text-base text-gray-600">SND Regenic Pvt Ltd</p>
           </a>
           {/* India */}
           <a
@@ -39,7 +39,7 @@ export default function Home() {
 >
   {/* <img src="/images/india.svg" alt="India" className="w-16 mx-auto mb-4" /> */}
   <h2 className="text-2xl font-bold text-indigo-700 mb-4">India Location</h2>
-  <p className="text-base text-gray-600">SND Regenic Pvt. Ltd.</p>
+  <p className="text-base text-gray-600">SND Regenic Reseach Labs Pvt Ltd</p>
 </a>
 
           
