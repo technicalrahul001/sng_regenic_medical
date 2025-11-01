@@ -26,7 +26,7 @@ export default function Home() {
             style={{boxShadow: '0 6px 32px 0 rgba(60,255,150,0.15)'}}
           >
             {/* <img src="/images/japan.svg" alt="Japan" className="w-16 mx-auto mb-4" /> */}
-            <h2 className="text-2xl font-bold text-emerald-700 mb-4">Japan Location</h2>
+            <h2 className="text-2xl font-bold text-emerald-700 mb-4">Japan</h2>
             <p className="text-base text-gray-600">SND Regenic Pvt Ltd</p>
           </a>
           {/* India */}
@@ -38,7 +38,7 @@ export default function Home() {
   style={{ boxShadow: '0 6px 32px 0 rgba(60,120,255,0.2)' }}
 >
   {/* <img src="/images/india.svg" alt="India" className="w-16 mx-auto mb-4" /> */}
-  <h2 className="text-2xl font-bold text-indigo-700 mb-4">India Location</h2>
+  <h2 className="text-2xl font-bold text-indigo-700 mb-4">India</h2>
   <p className="text-base text-gray-600">SND Regenic Reseach Labs Pvt Ltd</p>
 </a>
 

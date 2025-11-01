@@ -59,17 +59,21 @@ export default function AboutPage() {
       </section>
       </div>
       {/* Video section just before Our Team */}
-      <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-8 sm:pb-12" style={{marginTop: "2%"}}>
-        <div className="relative w-full" style={{paddingTop:"56.25%"}}>
-          <iframe
-            className="absolute inset-0 w-full h-full rounded-md border border-black/[.08] dark:border-white/[.145]"
-            src="https://www.youtube.com/embed/8Oy6NONhiTE?modestbranding=1&rel=0&playsinline=1"
-            title="From Discovery to Impact: The Entrepreneurial Journey"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-            loading="lazy"
-          />
-        </div>
+      
+      <section className="max-w-4xl mx-auto px-4 py-10">
+        <p className="text-xs opacity-80 mb-2" style={{color: "grey"}}>
+          Check Out the exclusive interview from the Okinawa Institute of Science & Technology Innovation department, official Video Published by OIST Innovation
+        </p>
+        <div className="relative w-full overflow-hidden rounded" style={{ paddingTop: "56.25%" }}>
+  <iframe
+    className="absolute inset-0 w-full h-full"
+    src="https://www.youtube.com/embed/3M0Z_rfXWuc"
+    title="OIST Innovation Video"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+  />
+</div>
       </section>
       <section className="bg-[#0b0d33] text-white py-12 sm:py-16">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
