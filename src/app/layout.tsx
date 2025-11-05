@@ -5,7 +5,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import LogoIndia from "../../logoUpdated.png";
 
-
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -28,38 +27,96 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}> 
-        <div className="min-h-screen flex flex-col">
-          <header className=" top-0 z-50 bg-white/80 dark:bg-black/50 backdrop-blur border-b border-black/[.08] dark:border-white/[.145]">
-          {/* <div style={{ display: "flex", justifyContent: "center", alignItems: "center", padding: "8px",backgroundColor:"lightblue" }}> */}
-            <Link style={{display: "flex", justifyContent: "center"}} href="/" passHref>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        style={{ backgroundColor: "white", color: "black" }}
+      >
+        <div className="min-h-screen flex flex-col" style={{ backgroundColor: "white", color: "black" }}>
+          <header
+            className="top-0 z-50 backdrop-blur border-b"
+            style={{
+              backgroundColor: "white",
+              borderColor: "black",
+            }}
+          >
+            <Link
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                padding: "8px",
+              }}
+              href="/"
+              passHref
+            >
               <img
                 src={LogoIndia.src}
                 alt="SND Regenic Research Labs Pvt. Ltd., India Logo"
-                className="block"
-                style={{ width: "30%", height: "auto", borderRadius: "16px", cursor: "pointer" }}
+                style={{
+                  width: "30%",
+                  height: "auto",
+                  borderRadius: "16px",
+                  cursor: "pointer",
+                  backgroundColor: "white",
+                }}
               />
             </Link>
-             <div className="text-center text-3xl font-semibold select-none text-light-black">
-  SND Regenic Pvt Ltd
-</div>
-          {/* </div> */}
+
+            <div
+              className="text-center text-3xl font-semibold select-none"
+              style={{ color: "black" }}
+            >
+              SND Regenic Pvt Ltd
+            </div>
+
             <nav className="hidden md:flex max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 items-center justify-around">
               <ul className="flex items-center gap-6 text-m">
-                <li><Link className="hover:no-underline" href="/about">About Us</Link></li>
-                <li><Link className="hover:no-underline" href="/products-services">Product & Services</Link></li>
-                <li><Link className="hover:no-underline" href="/research-developments">Research & Developments</Link></li>
-                <li><Link className="hover:no-underline" href="/news-events">News & Events</Link></li>
-                <li><Link className="hover:no-underline" href="/contact-us">Contact Us</Link></li>
+                <li>
+                  <Link className="hover:no-underline" href="/about">
+                    About Us
+                  </Link>
+                </li>
+                <li>
+                  <Link className="hover:no-underline" href="/products-services">
+                    Product & Services
+                  </Link>
+                </li>
+                <li>
+                  <Link className="hover:no-underline" href="/research-developments">
+                    Research & Developments
+                  </Link>
+                </li>
+                <li>
+                  <Link className="hover:no-underline" href="/news-events">
+                    News & Events
+                  </Link>
+                </li>
+                <li>
+                  <Link className="hover:no-underline" href="/contact-us">
+                    Contact Us
+                  </Link>
+                </li>
               </ul>
             </nav>
+
             {/* Mobile horizontal scroller */}
             <MobileScrollableNav />
           </header>
-          <main className="flex-1">{children}</main>
-          <footer className="border-t border-black/[.08] dark:border-white/[.145] py-8 text-sm">
+
+          <main className="flex-1" style={{ backgroundColor: "white", color: "black" }}>
+            {children}
+          </main>
+
+          <footer
+            className="py-8 text-sm"
+            style={{
+              backgroundColor: "white",
+              color: "black",
+              borderTop: "1px solid black",
+            }}
+          >
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-center gap-4">
-              <p style={{color: "black"}}>© {new Date().getFullYear()} SND REGENIC Reseach Labs Pvt. Ltd., India</p>
+              <p>© {new Date().getFullYear()} SND REGENIC Research Labs Pvt. Ltd., India</p>
             </div>
           </footer>
         </div>
