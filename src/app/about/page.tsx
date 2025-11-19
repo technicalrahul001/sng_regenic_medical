@@ -4,6 +4,7 @@ import Anderson from "../../app/assets/andersonIntern.jpeg";
 import Irfan from "../../app/assets/irfhanIntern.jpeg";
 import Rahul from "../../app/assets/rahul.jpeg";
 import Vishal from "../../app/assets/Vishal.jpeg"
+import SunilKumar from "../../app/assets/sunilKumar.jpeg";
 
 const employeeTestData = [
   {
@@ -135,8 +136,18 @@ export default function AboutPage() {
     
 
     {/* Mentor & Advisor */}
-    <div className="flex flex-wrap justify-center gap-x-8 gap-y-10 mt-10">
-  
+    <div className="pt-10 flex flex-wrap lg:flex-nowrap justify-center gap-x-6 gap-y-10">
+  <div className="flex flex-col items-center w-full max-w-xs sm:w-72">
+    <img
+      src={SunilKumar.src}
+      alt="Dr. Sunil Kumar Vimal (CRO India)"
+      className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
+    />
+    <h3 className="font-bold text-base text-center">Dr. Sunil Kumar Vimal(CRO India)</h3>
+    <p className="text-xs text-center opacity-90 mt-0.5">
+      Ph.D. In neuroscience and expert of Neural Tissue Engineering. More than 15 years research experience. 
+    </p>
+  </div>
   <div className="flex flex-col items-center w-full max-w-xs sm:w-72">
     <img
       src={Rahul.src}
