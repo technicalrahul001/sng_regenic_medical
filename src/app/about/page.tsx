@@ -5,6 +5,8 @@ import Irfan from "../../app/assets/irfhanIntern.jpeg";
 import Rahul from "../../app/assets/rahul.jpeg";
 import Vishal from "../../app/assets/Vishal.jpeg"
 import SunilKumar from "../../app/assets/sunilKumar.jpeg";
+import Satyanarayan from "../../app/assets//satyanarayan.jpeg";
+import Sandeep from "../../app/assets/sandeep.jpeg"
 
 const employeeTestData = [
   {
@@ -66,125 +68,170 @@ export default function AboutPage() {
           Check Out the exclusive interview from the Okinawa Institute of Science & Technology Innovation department, official Video Published by OIST Innovation
         </p>
         <div className="relative w-full overflow-hidden rounded" style={{ paddingTop: "56.25%" }}>
-  <iframe
-    className="absolute inset-0 w-full h-full"
-    src="https://www.youtube.com/embed/3M0Z_rfXWuc"
-    title="OIST Innovation Video"
-    loading="lazy"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowFullScreen
-  />
-</div>
+          <iframe
+            className="absolute inset-0 w-full h-full"
+            src="https://www.youtube.com/embed/3M0Z_rfXWuc"
+            title="OIST Innovation Video"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          />
+        </div>
       </section>
       <section className="bg-[#0b0d33] text-white py-12 sm:py-16">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <h2 className="text-center text-2xl sm:text-3xl font-semibold mb-10">Our Team</h2>
-    <div className="flex flex-wrap lg:flex-nowrap justify-center gap-x-6 gap-y-10">
-      {/* Member 1 */}
-      <div className="flex flex-col items-center w-72 lg:w-1/4">
-        <img
-          src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/3d8f23ae-0297-4309-bb14-bba4c3b059d0_2x"
-          alt="Dr. Lokesh Agrawal (PhD)"
-          className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
-        />
-        <h3 className="font-bold text-base text-center">CEO &amp; Founder Dr. Lokesh Agrawal (PhD)</h3>
-        <p className="text-xs text-center opacity-90 mt-0.5">
-          PhD. Neuroscience from University of Tsukuba. Expert of tissue engineering, stem cells &amp; biomaterials. More than 5 years experience of R&amp;D and business development.
-        </p>
-      </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-center text-2xl sm:text-3xl font-semibold mb-10">Team Japan</h2>
+          <div className="flex flex-wrap lg:flex-nowrap justify-center gap-x-6 gap-y-10">
+            {/* Member 1 */}
+            <div className="flex flex-col items-center w-72 lg:w-1/4">
+              <img
+                src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/3d8f23ae-0297-4309-bb14-bba4c3b059d0_2x"
+                alt="Dr. Lokesh Agrawal (PhD)"
+                className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
+              />
+              <h3 className="font-bold text-base text-center">CEO &amp; Founder Dr. Lokesh Agrawal (PhD)</h3>
+              <p className="text-xs text-center opacity-90 mt-0.5">
+                PhD. Neuroscience from University of Tsukuba. Expert of tissue engineering, stem cells &amp; biomaterials. More than 5 years experience of R&amp;D and business development.
+              </p>
+            </div>
 
-      {/* Member 2 */}
-      
+            {/* Member 2 */}
+            <div className="flex flex-col items-center w-72 lg:w-1/4">
+              <img
+                src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/98d83016-aba3-4112-a26e-8ce89f92e4a6_2x"
+                alt="Mohd Yaqub Khan"
+                className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
+              />
+              <h3 className="font-bold text-base text-center">CRO &amp; Co-Founder Mohd Yaqub Khan</h3>
+              <p className="text-xs text-center opacity-90 mt-0.5">
+                R&amp;D Scientist with more than 5 years of expertise in animal trials, GMP production, and drug trials.
+              </p>
+            </div>
+            
 
-      {/* Member 3 */}
-      <div className="flex flex-col items-center w-72 lg:w-1/4">
-        <img
-          src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/98d83016-aba3-4112-a26e-8ce89f92e4a6_2x"
-          alt="Mohd Yaqub Khan"
-          className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
-        />
-        <h3 className="font-bold text-base text-center">CRO &amp; Co-Founder Mohd Yaqub Khan</h3>
-        <p className="text-xs text-center opacity-90 mt-0.5">
-          R&amp;D Scientist with more than 5 years of expertise in animal trials, GMP production, and drug trials.
-        </p>
-      </div>
+            {/* Member 3 */}
+            <div className="flex flex-col items-center w-72 lg:w-1/4">
+              <img
+                src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/836d986d-3310-44df-b596-725a0480e285_2x"
+                alt="Naoto Takahashi"
+                className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
+              />
+              <h3 className="font-bold text-base text-center">CAO &amp; Director Naoto Takahashi</h3>
+              <p className="text-xs text-center opacity-90 mt-0.5">
+                Naoto Takahashi is a Japanese Citizen and a senior business executive having experience in sales, administration and finance management
+              </p>
+            </div>
 
-      {/* Member 4 */}
-      <div className="flex flex-col items-center w-72 lg:w-1/4">
-        <img
-          src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/836d986d-3310-44df-b596-725a0480e285_2x"
-          alt="Naoto Takahashi"
-          className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
-        />
-        <h3 className="font-bold text-base text-center">CAO &amp; Director Naoto Takahashi</h3>
-        <p className="text-xs text-center opacity-90 mt-0.5">
-          Naoto Takahashi is a Japanese Citizen and a senior business executive having experience in sales, administration and finance management
-        </p>
-      </div>
-      <div className="flex flex-col items-center w-full max-w-xs sm:w-72">
-    <img
-      src={Vishal.src}
-      alt="Dr. Vishal Gangadhar Warke (M.B.B.S.)"
-      className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
-    />
-    <h3 className="font-bold text-base text-center">Co-founder and Mentor Dr. Vishal Warke(MBBS)</h3>
-    <p className="text-xs text-center opacity-90 mt-0.5">
-      Other affiliations: Director R&D Cell Biology, HiMedia Labs Pvt Ltd, Mumbai, India
-    </p>
-  </div>
-    </div>
-    
+            {/* Member 4 */}
+            <div className="flex flex-col items-center w-full max-w-xs sm:w-72">
+              <img
+                src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/eb55155b-c4ae-484d-83e4-e5a9946369bd_2x"
+                alt="Prof. Randeep Rakwal"
+                className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
+              />
+              <h3 className="font-bold text-base text-center">Mentor &amp; Advisor Prof. Randeep Rakwal</h3>
+              <p className="text-xs text-center opacity-90 mt-0.5">
+                Senior professor at University of Tsukuba, visionary leader, with entrepreneurship and social impact projects.
+              </p>
+            </div>
+            {/* Member 5 */}
+            {/* <div className="flex flex-col items-center w-full max-w-xs sm:w-72">
+              <img
+                src={Vishal.src}
+                alt="Dr. Vishal Gangadhar Warke (M.B.B.S.)"
+                className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
+              />
+              <h3 className="font-bold text-base text-center">Co-founder and Mentor Dr. Vishal Warke(MBBS)</h3>
+              <p className="text-xs text-center opacity-90 mt-0.5">
+                Other affiliations: Director R&D Cell Biology, HiMedia Labs Pvt Ltd, Mumbai, India
+              </p>
+            </div> */}
+          </div>
+          
 
-    {/* Mentor & Advisor */}
-    <div className="pt-10 flex flex-wrap lg:flex-nowrap justify-center gap-x-6 gap-y-10">
-  <div className="flex flex-col items-center w-full max-w-xs sm:w-72">
-    <img
-      src={SunilKumar.src}
-      alt="Dr. Sunil Kumar Vimal (CRO India)"
-      className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
-    />
-    <h3 className="font-bold text-base text-center">Dr. Sunil Kumar Vimal(CRO India)</h3>
-    <p className="text-xs text-center opacity-90 mt-0.5">
-      Ph.D. In neuroscience and expert of Neural Tissue Engineering. More than 15 years research experience. 
-    </p>
-  </div>
-  <div className="flex flex-col items-center w-full max-w-xs sm:w-72">
-    <img
-      src={Rahul.src}
-      alt="Dr. Rahul Gangadhar Warke (Ph.D.)"
-      className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
-    />
-    <h3 className="font-bold text-base text-center">Co-founder and Mentor Dr. Rahul Warke(PhD)</h3>
-    <p className="text-xs text-center opacity-90 mt-0.5">
-      Other affiliations: Director R&D Micro-Biology, HiMedia Labs Pvt Ltd, Mumbai, India
-    </p>
-  </div>
-  <div className="flex flex-col items-center w-full max-w-xs sm:w-72">
-    <img
-      src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/eb55155b-c4ae-484d-83e4-e5a9946369bd_2x"
-      alt="Prof. Randeep Rakwal"
-      className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
-    />
-    <h3 className="font-bold text-base text-center">Mentor &amp; Advisor Prof. Randeep Rakwal</h3>
-    <p className="text-xs text-center opacity-90 mt-0.5">
-      Senior professor at University of Tsukuba, visionary leader, with entrepreneurship and social impact projects.
-    </p>
-  </div>
-  <div className="flex flex-col items-center w-72 lg:w-1/4">
-        <img
-          src={CtoImage.src}
-          alt="PRANAV PANDEY"
-          className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
-        />
-        <h3 className="font-bold text-base text-center">Mentor and Advisor Pranav Pandey</h3>
-        <p className="text-xs text-center opacity-90 mt-0.5">
-          Expert of interface programming and electronics with more than 7 years experience working in multinational companies.
-        </p>
-      </div>
-</div>
 
-  </div>
-</section>
+          <h2 className="text-center text-2xl sm:text-3xl font-semibold mb-10 mt-15">Team India</h2>
+          <div className="pt-10 flex flex-wrap lg:flex-nowrap justify-center gap-x-6 gap-y-10">
+            {/* Member 1 */}
+              <div className="flex flex-col items-center w-72 lg:w-1/4">
+                <img
+                  src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/3d8f23ae-0297-4309-bb14-bba4c3b059d0_2x"
+                  alt="Dr. Lokesh Agrawal (PhD)"
+                  className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
+                />
+                <h3 className="font-bold text-base text-center">CEO &amp; Founder Dr. Lokesh Agrawal (PhD)</h3>
+                <p className="text-xs text-center opacity-90 mt-0.5">
+                  PhD. Neuroscience from University of Tsukuba. Expert of tissue engineering, stem cells &amp; biomaterials. More than 5 years experience of R&amp;D and business development.
+                </p>
+              </div>
+
+            {/* Member 2 */}
+              <div className="flex flex-col items-center w-full max-w-xs sm:w-72">
+                <img
+                  src={Satyanarayan.src}
+                  alt="Shree Satyanarayan Gupta (Co-founder and CFO India)"
+                  className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
+                />
+                <h3 className="font-bold text-base text-center">Shree Satyanarayan Gupta  (CAO of india)</h3>
+                <p className="text-xs text-center opacity-90 mt-0.5">
+                  30 years experience in Public sector for accounting, auditing and financial reporting and management.
+                </p>
+              </div>
+
+            {/* Member 3 */}
+              <div className="flex flex-col items-center w-full max-w-xs sm:w-72">
+              <img
+                src={Vishal.src}
+                alt="Dr. Vishal Gangadhar Warke (M.B.B.S.)"
+                className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
+              />
+              <h3 className="font-bold text-base text-center">Co-founder and Mentor Dr. Vishal Warke(MBBS)</h3>
+              <p className="text-xs text-center opacity-90 mt-0.5">
+                Other affiliations: Director R&D Cell Biology, HiMedia Labs Pvt Ltd, Mumbai, India
+              </p>
+            </div>
+
+            {/* Member 4 */ }
+              <div className="flex flex-col items-center w-full max-w-xs sm:w-72">
+                <img
+                  src={Rahul.src}
+                  alt="Dr. Rahul Gangadhar Warke (Ph.D.)"
+                  className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
+                />
+                <h3 className="font-bold text-base text-center">Co-founder and Mentor Dr. Rahul Warke(PhD)</h3>
+                <p className="text-xs text-center opacity-90 mt-0.5">
+                  Other affiliations: Director R&D Micro-Biology, HiMedia Labs Pvt Ltd, Mumbai, India
+                </p>
+              </div>
+
+            {/* Member 5 */}
+              <div className="flex flex-col items-center w-72 lg:w-1/4">
+                <img
+                 src={Sandeep.src}
+                 alt="PRANAV PANDEY"
+                 className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
+                />
+                <h3 className="font-bold text-base text-center">Dr. Sandip Patil (Mentor)</h3>
+                <p className="text-xs text-center opacity-90 mt-0.5">
+                  Director ( 2010-Present) E-Spin Nanotech Pvt. Ltd. SIDBI Incubation Center Indian Institute of Technology Kanpur-208016
+                </p>
+              </div>
+
+            {/* Member 6 */}
+            {/* <div className="flex flex-col items-center w-full max-w-xs sm:w-72">
+                <img
+                  src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/eb55155b-c4ae-484d-83e4-e5a9946369bd_2x"
+                  alt="Dr. Sandip Patil (Mentor)"
+                  className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
+                />
+                <h3 className="font-bold text-base text-center">Mentor &amp; Advisor Prof. Randeep Rakwal</h3>
+                <p className="text-xs text-center opacity-90 mt-0.5">
+                  Senior professor at University of Tsukuba, visionary leader, with entrepreneurship and social impact projects.
+                </p>
+            </div> */}
+             </div>
+           </div>
+      </section>
 
 
       <div style={{backgroundColor: "red",marginTop:"2%"}}>
