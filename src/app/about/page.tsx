@@ -207,7 +207,7 @@ export default function AboutPage() {
             className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
           />
           <h3 className="font-bold text-base text-center">
-            Co-founder and Mentor Dr. Vishal Warke (MBBS)
+            Mentor Dr. Vishal Warke (MBBS)
           </h3>
           <p className="text-xs text-center opacity-90 mt-0.5">
             Director R&D Cell Biology, HiMedia Labs Pvt Ltd, Mumbai, India
