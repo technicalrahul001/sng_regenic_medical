@@ -153,98 +153,97 @@ export default function AboutPage() {
           <h2 className="text-center text-2xl sm:text-3xl font-semibold mb-10 mt-15">Team India</h2>
           <div className="pt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-10 justify-items-center">
 
-  {/* Member 1 */}
-  <div className="flex flex-col items-center w-full max-w-xs">
-    <img
-      src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/3d8f23ae-0297-4309-bb14-bba4c3b059d0_2x"
-      alt="Dr. Lokesh Agrawal (PhD)"
-      className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
-    />
-    <h3 className="font-bold text-base text-center">
-      CEO & Founder Dr. Lokesh Agrawal (PhD)
-    </h3>
-    <p className="text-xs text-center opacity-90 mt-0.5">
-      PhD. Neuroscience from University of Tsukuba. Expert of tissue engineering, 
-      stem cells & biomaterials. More than 5 years experience of R&D and business development.
-    </p>
-  </div>
+        {/* Member 1 */}
+        <div className="flex flex-col items-center w-full max-w-xs">
+          <img
+            src="https://bc-user-uploads.brandcrowd.com/public/media-Production/d57c710c-28d8-4de3-aa5f-c1e4316232a7/3d8f23ae-0297-4309-bb14-bba4c3b059d0_2x"
+            alt="Dr. Lokesh Agrawal (PhD)"
+            className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
+          />
+          <h3 className="font-bold text-base text-center">
+            CEO & Founder Dr. Lokesh Agrawal (PhD)
+          </h3>
+          <p className="text-xs text-center opacity-90 mt-0.5">
+            PhD. Neuroscience from University of Tsukuba. Expert of tissue engineering, 
+            stem cells & biomaterials. More than 5 years experience of R&D and business development.
+          </p>
+        </div>
 
-  {/* Member 2 */}
-  <div className="flex flex-col items-center w-full max-w-xs">
-    <img
-      src={SunilKumar.src}
-      alt="Dr. Sunil Kumar Vimal (CRO India)"
-      className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
-    />
-    <h3 className="font-bold text-base text-center">Dr. Sunil Kumar Vimal (CRO India)</h3>
-    <p className="text-xs text-center opacity-90 mt-0.5">
-      Ph.D. In neuroscience and expert of Neural Tissue Engineering. 
-      More than 15 years research experience.
-    </p>
-  </div>
+        {/* Member 2 */}
+        <div className="flex flex-col items-center w-full max-w-xs">
+          <img
+            src={SunilKumar.src}
+            alt="Dr. Sunil Kumar Vimal (CRO India)"
+            className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
+          />
+          <h3 className="font-bold text-base text-center">Dr. Sunil Kumar Vimal (CRO India)</h3>
+          <p className="text-xs text-center opacity-90 mt-0.5">
+            Ph.D. In neuroscience and expert of Neural Tissue Engineering. 
+            More than 15 years research experience.
+          </p>
+        </div>
 
-  {/* Member 3 */}
-  <div className="flex flex-col items-center w-full max-w-xs">
-    <img
-      src={Satyanarayan.src}
-      alt="Shree Satyanarayan Gupta (CAO India)"
-      className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
-    />
-    <h3 className="font-bold text-base text-center">
-      Shree Satyanarayan Gupta (CAO of India)
-    </h3>
-    <p className="text-xs text-center opacity-90 mt-0.5">
-      30 years experience in public sector for accounting, auditing,
-      financial reporting and management.
-    </p>
-  </div>
+        {/* Member 3 */}
+        <div className="flex flex-col items-center w-full max-w-xs">
+          <img
+            src={Satyanarayan.src}
+            alt="Shree Satyanarayan Gupta (CAO India)"
+            className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
+          />
+          <h3 className="font-bold text-base text-center">
+            Shree Satyanarayan Gupta (CAO of India)
+          </h3>
+          <p className="text-xs text-center opacity-90 mt-0.5">
+            30 years experience in public sector for accounting, auditing,
+            financial reporting and management.
+          </p>
+        </div>
 
-  {/* Member 4 */}
-  <div className="flex flex-col items-center w-full max-w-xs">
-    <img
-      src={Vishal.src}
-      alt="Dr. Vishal Gangadhar Warke"
-      className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
-    />
-    <h3 className="font-bold text-base text-center">
-      Co-founder and Mentor Dr. Vishal Warke (MBBS)
-    </h3>
-    <p className="text-xs text-center opacity-90 mt-0.5">
-      Director R&D Cell Biology, HiMedia Labs Pvt Ltd, Mumbai, India
-    </p>
-  </div>
+        {/* Member 4 */}
+        <div className="flex flex-col items-center w-full max-w-xs">
+          <img
+            src={Vishal.src}
+            alt="Dr. Vishal Gangadhar Warke"
+            className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
+          />
+          <h3 className="font-bold text-base text-center">
+            Co-founder and Mentor Dr. Vishal Warke (MBBS)
+          </h3>
+          <p className="text-xs text-center opacity-90 mt-0.5">
+            Director R&D Cell Biology, HiMedia Labs Pvt Ltd, Mumbai, India
+          </p>
+        </div>
 
-  {/* Member 5 – Center Row (start at column 2 on large screens) */}
-  <div className="flex flex-col items-center w-full max-w-xs lg:col-start-2">
-    <img
-      src={Rahul.src}
-      alt="Dr. Rahul Gangadhar Warke"
-      className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
-    />
-    <h3 className="font-bold text-base text-center">
-      Co-founder and Mentor Dr. Rahul Warke (PhD)
-    </h3>
-    <p className="text-xs text-center opacity-90 mt-0.5">
-      Director R&D Micro-Biology, HiMedia Labs Pvt Ltd, Mumbai, India
-    </p>
-  </div>
+        {/* Member 5 – Center Row (start at column 2 on large screens) */}
+        <div className="flex flex-col items-center w-full max-w-xs lg:col-start-2">
+          <img
+            src={Rahul.src}
+            alt="Dr. Rahul Gangadhar Warke"
+            className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
+          />
+          <h3 className="font-bold text-base text-center">
+            Mentor Dr. Rahul Warke (PhD)
+          </h3>
+          <p className="text-xs text-center opacity-90 mt-0.5">
+            Director R&D Micro-Biology, HiMedia Labs Pvt Ltd, Mumbai, India
+          </p>
+        </div>
 
-  {/* Member 6 */}
-  <div className="flex flex-col items-center w-full max-w-xs">
-    <img
-      src={Sandeep.src}
-      alt="Dr. Sandip Patil"
-      className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
-    />
-    <h3 className="font-bold text-base text-center">
-      Dr. Sandip Patil (Mentor)
-    </h3>
-    <p className="text-xs text-center opacity-90 mt-0.5">
-      Director (2010-Present), E-Spin Nanotech Pvt. Ltd., IIT Kanpur
-    </p>
-  </div>
-
-</div>
+        {/* Member 6 */}
+        <div className="flex flex-col items-center w-full max-w-xs">
+          <img
+            src={Sandeep.src}
+            alt="Dr. Sandip Patil"
+            className="w-56 h-56 rounded-full object-cover mb-4 border-4 border-white"
+          />
+          <h3 className="font-bold text-base text-center">
+            Mentor Dr. Sandip Patil
+          </h3>
+          <p className="text-xs text-center opacity-90 mt-0.5">
+            Director (2010-Present), E-Spin Nanotech Pvt. Ltd., IIT Kanpur
+          </p>
+        </div>
+      </div>
 
            </div>
       </section>
