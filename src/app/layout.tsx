@@ -62,13 +62,6 @@ export default function RootLayout({
               />
             </Link>
 
-            {/* <div
-              className="text-center text-3xl font-semibold select-none"
-              style={{ color: "black" }}
-            >
-              SND Regenic Pvt Ltd Test
-            </div> */}
-
             <nav className="hidden md:flex max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 items-center justify-around">
               <ul className="flex items-center gap-6 text-m">
                 <li>
